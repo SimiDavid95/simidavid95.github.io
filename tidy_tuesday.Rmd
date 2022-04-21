@@ -1,0 +1,15 @@
+---
+title: "Tidy Tuesday"
+description: |
+  My submissions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data visualization weekly challenge.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 2022

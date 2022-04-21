@@ -1,0 +1,15 @@
+---
+title: "Beyond the Data"
+description: |
+  My hobbies and passions outside the data sphere.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

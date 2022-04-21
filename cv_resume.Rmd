@@ -1,0 +1,15 @@
+---
+title: "CV/Resume"
+description: |
+  A more-detailed version of my PDF CV/resume.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

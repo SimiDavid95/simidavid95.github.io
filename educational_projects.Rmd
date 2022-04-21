@@ -1,0 +1,15 @@
+---
+title: "Educational Projects"
+description: |
+  Original or modified projects that I have been tasked with completing throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

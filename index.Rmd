@@ -6,6 +6,8 @@ links:
     url: "https://linkedin.com/in/juan-david-acosta"
   - label: GitHub
     url: "https://github.com/SimiDavid95"
+  - label: Twitter
+    url: "https://twitter.com/davidacosta95"
   - label: Email
     url: "mailto:email@email.com"
 output:
@@ -13,22 +15,8 @@ output:
 site: distill::distill_website
 ---
  
-## Bio
+## About Me
 
+Hello and welcome to my website! My name is Juan David Acosta, though you can call me either Juan or David, whichever name you prefer. My preferred pronouns are he/him/his. I am a Colombian-Canadian currently living in Toronto, where I am completing my undergraduate studies at the University of Toronto, pursuing a Bachelor of Science in Statistics, with minors in both Mathematics and the History and Philosophy of Science and Technology.
 
-
-## Education
-
-**Massachusetts Institute of Technology** | Cambridge, MA
-
-Ph.D. in Computer Science | September 2009 - May 2014
-
-**The University of California, Berkeley** | Berkeley, CA
-
-B.S. in Computer Science | September 2005 - May 2009
-
-## Experience
-
-**Google Brain** | Principal Investigator | January 2018 - Present
-
-**Netflix** | Research Scientist | June 2014 - December 2017
+When I am not creating a ggplot or cleaning a dataset for analysis, you can find me cooking up tried and true recipes, catching up on my favourite shows (sci-fi is my absolute favourite genre!), looking up at the Moon through my telescope, or building cities on my computer.
