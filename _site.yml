@@ -10,11 +10,10 @@ navbar:
     - text: "CV"
       href: about.html
     - text: "Projects"
-      href: projects.html
-    - text: "Tidy Tuesday"
-      href: about.html
+      menu:
+        - text: "Educational Projects"
+        - text: "Tidy Tuesday"
+        - text: "Other Projects"
     - text: "Blog"
-      href: about.html
     - text: "Beyond the Data"
-      href: about.html
 output: distill::distill_article
