@@ -15,5 +15,6 @@ navbar:
         - text: "Tidy Tuesday"
         - text: "Other Projects"
     - text: "Blog"
+      href: blog.html
     - text: "Beyond the Data"
 output: distill::distill_article
