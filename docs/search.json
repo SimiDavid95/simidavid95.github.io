@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-04-21T14:59:48-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Juan David Acosta",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          Juan David Acosta\r\n          \r\n          \r\n          Home\r\n          CV\r\n          Projects\r\n          Tidy Tuesday\r\n          Blog\r\n          Beyond the Data\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Juan David Acosta\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Bio\r\n            \r\n            \r\n            Education\r\n            Massachusetts Institute of Technology | Cambridge, MA\r\n            Ph.D. in Computer Science | September 2009 - May 2014\r\n            The University of California, Berkeley | Berkeley, CA\r\n            B.S. in Computer Science | September 2005 - May 2009\r\n            \r\n            \r\n            Experience\r\n            Google Brain | Principal Investigator | January 2018 - Present\r\n            Netflix | Research Scientist | June 2014 - December 2017\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Juan David Acosta\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Bio\r\n              \r\n              \r\n              Education\r\n              Massachusetts Institute of Technology | Cambridge, MA\r\n              Ph.D. in Computer Science | September 2009 - May 2014\r\n              The University of California, Berkeley | Berkeley, CA\r\n              B.S. in Computer Science | September 2005 - May 2009\r\n              \r\n              \r\n              Experience\r\n              Google Brain | Principal Investigator | January 2018 - Present\r\n              Netflix | Research Scientist | June 2014 - December 2017\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2022-04-21T14:59:38-04:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-04-21T14:59:21-04:00"
+    }
+  ],
+  "collections": []
+}
