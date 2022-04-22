@@ -1,7 +1,7 @@
 ---
 title: "CV/Resume"
 description: |
-  A more-detailed version of my PDF CV/resume.
+  A more detailed version of my PDF CV/resume.
 output: 
   distill::distill_article:
     toc: true
@@ -14,14 +14,95 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
+I am a reliable, energetic, and resourceful individual with more than a year of diverse work experience, including six months of administrative experience with an emphasis on data management, eight months of online moderation experience working in a virtual setting, and a month-long virtual internship putting into practice my data analytics and research skills. These various experiences, along with the analytic and critical thinking skills I have acquired in my undergraduate education, allow me to adapt quickly to any new job or task.
+
 ## Work Experience
+
+**Insurtech Advisors** - *Toronto, ON*\
+**Data Analytics and Reporting Intern** - March 2022
+
+This internship was part of the Riipen Level UP virtual internship program. My supervisor tasked me with building a program to estimate the number of boats that appeared in a given satellite image. This involved researching computer vision methods, which exposed me to machine learning and artificial intelligence processes and functions. I completed the program within the month-long time frame of my internship, and the final deliverable consisted of the program, which was written in RStudio using both R and Python code, as well as a PDF report where I communicated the results of the project, written in RMarkdown. My supervisor left me a 5-star rating and review on the Riipen portal ([link](https://app.riipen.com/users/vO24BjLQ/feedbacks?preserve=false&scroll=false)).
+
+**University of Toronto** - *Toronto, ON*\
+**Online Course Moderator** - September 2020 to April 2021
+
+I was tasked with assisting in the running of online courses for the Translational Research Program of the Temerty Faculty of Medicine in the University of Toronto. Using my technical skills, I assisted instructors and students with the technical aspects of the Zoom videoconferencing software and troubleshooting. This included performing functions such as setting up breakout rooms for group discussions, setting up polls as part of in-class activities, and troubleshooting audio and visual issues. In addition to this, I was also tasked with logging course participation and managing class recordings.
+
+**University of Toronto** - *Toronto, ON*\
+**Administrative Assistant** - September 2019 to February 2020
+
+I was tasked with assisting in the running of the program office of the Department of Psychiatry of the Temerty Faculty of Medicine in the University of Toronto. This position exposed me to both data analysis and data management processes, such as data entry, data verification, and data cleaning. I assisted in updating student and faculty records on a specialized departmental website. I also collaborated on a project to update the repository of course and residency listings, which received positive feedback from students and residents.
 
 ## Education
 
+### Undergraduate
+
+**University of Toronto** - *Toronto, ON*\
+**Bachelor of Science** - June 2022
+
+Major in Statistics:
+
+* Probability and sampling design
+* Statistical distributions
+* Various types of regression (linear, logistic, etc.)
+* Data analysis
+* Observational studies
+* Experimental design
+* Ethical considerations and reproducibility
+* Statistical programming using R
+
+Minor in Mathematics:
+
+* Univariate and multivariate calculus
+* Linear algebra
+
+Minor in History and Philosophy of Science and Technology:
+
+* History of mathematics
+* History of probability
+* Ethics of machine learning and artificial intelligence
+
+### Professional Certificates
+
+**IBM / Coursera** - *Toronto, ON*\
+**IBM Data Science Professional Certificate** - Expected 2022
+
 ## Professional Skills
 
-## Professional Certificates
+### Programming and database languages
+
+**R**\
+This is the programming language I am most proficient in, as I have used it in several statistics courses for projects and assignments. I use the RStudio environment to write code and create RMarkdown reports. I have experience with data cleaning and data visualization using packages from the *Tidyverse*.
+
+**Python**\
+I have used Python to code in both an undergraduate introduction to computer science course, and as part of my Insurtech Advisors internship project. I use the PyCharm environment to write code. I have had exposure to libraries such as *MatPlotLib*, *NumPy*, and *Open-CV*.
+
+**SQL**\
+I have completed an online course that gave me practical knowledge of SQL through the SQLite relational database management system. I have experience writing and executing queries, as well as data profiling and the general workflow of a task involving databases.
+
+### Excel for data analysis
+
+I have completed an online course that refined my data analysis skills in Excel. This includes manipulating data, using built-in functions for summary measures and data look-up, using Pivot tables and charts, and creating histograms and scatter plots.
+
+### Report writing
+
+I have written several reports as part of my coursework for some of my undergraduate statistics courses, as well as for my Insurtech Advisors internship. I have experience writing the following report sections: abstract, executive summary, introduction, data collection and cleaning, methods, results, conclusions, ethical considerations, and appendix. I am also knowledgeable in working with open data to ensure the reproducibility of results.
 
 ## Awards and Honours
 
+### Academic
+
+**Governor General's Bronze Medal Recipient** - *Toronto, ON*
+
+I received this medal as recognition for obtaining the highest grade average in my graduating secondary school class.
+
 ## Language Competencies
+
+**English**\
+I am fluent in speaking, reading and writing English.
+
+**Spanish**\
+I am fluent in speaking, reading and writing Spanish.
+
+**French**\
+I am at a classroom level in speaking, reading and writing French.
