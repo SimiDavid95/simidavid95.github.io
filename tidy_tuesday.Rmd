@@ -13,3 +13,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## 2022
+
+### Week 12
+
+**Baby names**
+
+[Code](https://github.com/SimiDavid95/Tidy-Tuesdays/tree/main/2022/Week%2012)
+
+![Picture of a line and dot graph depicting the use of names beginning with the letter "D" for babies born in the United States.](https://raw.githubusercontent.com/SimiDavid95/Tidy-Tuesdays/main/2022/Week%2012/tidy_tuesday_march_22_2022.jpeg)
