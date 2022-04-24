@@ -1,0 +1,115 @@
+---
+title: "Plot for me, plot for thee on Day 3"
+description: |
+  Calculating summary statistics and creating a bar plot from my Wordle statistics.
+author:
+  - name: Juan David Acosta
+date: 2022-04-23
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+[Wordle]() is a game that has taken the world by storm, especially since it has offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for my Day 3 blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let's do this!
+
+First, an important step is to always initialize the packages we will need for the task at hand. Since we will concern ourselves with crafting aesthetically-pleasing graphs, we will deploy the power of the [Tidyverse]() to use the [ggplot2]() graphing package. Since I will be entering the data manually, there is no need for a seed to ensure reproducibility.
+
+```{r, echo=TRUE}
+# Load in necessary library.
+library(tidyverse)
+```
+
+Second, let's create our data. Wordle tracks statistics such as the number of games played and the guess distribution (i.e. how many games were won with one guess, two guesses, ..., six guesses). These are the 
+
+```{r, echo=TRUE}
+# Variable with number of games won, which is also the number of games played.
+games_won <- 88
+
+# Create new variable called "guesses" that will store the Wordle wins based on how many guesses 
+# it took to guess the correct word, with numerical values ranging from 2 to 6.
+guesses <- c(2, rep(3, 19), rep(4, 36), rep(5, 25), rep(6, 7))
+```
+
+Third, let's run some summary statistics on our Wordle data, such as the mean number of guesses it took to correctly guess the word of the day, the variance and standard deviation for the number of guesses, and the percentage for each of the number of guesses out of the total number of games won.
+
+```{r, echo=TRUE}
+# Preliminary work that groups the number of guesses in a tibble, and counts the number of occurrences for each number of guesses.
+grouped_guesses_table <- tibble(one_guess = 0,
+                        two_guesses = sum(guesses == 2),
+                        three_guesses = sum(guesses == 3),
+                        four_guesses = sum(guesses == 4),
+                        five_guesses = sum(guesses == 5),
+                        six_guesses = sum(guesses == 6))
+
+## Represent as kable.
+grouped_guesses_kable <- knitr::kable(grouped_guesses_table,
+                                      col.names = c("One guess", "Two guesses", "Three guesses",
+                                                    "Four guesses", "Five guesses", "Six guesses"),
+                                      caption = "Sum for each number of guesses.")
+grouped_guesses_kable
+
+# Percentages for each of the number of guesses out of the total number of games won.
+percentage_guesses_table <- tibble(one_guess = 0,
+                                   two_guesses = (sum(guesses == 2) / games_won) * 100,
+                                   three_guesses = (sum(guesses == 3) / games_won) * 100,
+                                   four_guesses = (sum(guesses == 4) / games_won) * 100,
+                                   five_guesses = (sum(guesses == 5) / games_won) * 100,
+                                   six_guesses = (sum(guesses == 6) / games_won) * 100)
+
+## Round percentages to two decimal points in percentage_guesses_table.
+percentage_guesses_table <- round(percentage_guesses_table, 2)
+
+## Represent as kable.
+percentage_guesses_kable <- knitr::kable(percentage_guesses_table,
+                                         col.names = c("One guess", "Two guesses", "Three guesses",
+                                                    "Four guesses", "Five guesses", "Six guesses"),
+                                         caption = "Percentage (%) of each number of guesses out of the total number of guesses.")
+percentage_guesses_kable
+
+# Calculate mean for the number of guesses, and round to two decimal places.
+mean_guesses <- round(mean(guesses), 2)
+
+# Calculate variance for the number of guesses, and round to two decimal places.
+var_guesses <- round(var(guesses), 2)
+
+# Calculate standard deviation for the number of guesses, and round to two decimal places.
+sd_guesses <- round(sd(guesses), 2)
+
+# Place the mean, variance, and standard deviation in a tibble.
+mean_var_sd_guesses <- tibble(mean_guesses,
+                              var_guesses,
+                              sd_guesses)
+
+## Represent as kable.
+mean_var_sd_kable <- knitr::kable(mean_var_sd_guesses,
+                                  col.names = c("Mean", "Variance", "Standard deviation"),
+                                  caption = "Mean, variance and standard deviation for number of guesses.")
+mean_var_sd_kable
+```
+
+Fourth, it's time for the graph! We'll create a bar graph, similar to the one that Wordle provides.
+
+```{r, echo=TRUE}
+# Preliminary work to make a one-column tibble from the original guesses vector.
+guesses_table <- tibble(guesses)
+
+# Create bar chart.
+bar_guesses <- guesses_table %>%
+  ggplot(aes(x = factor(guesses))) +
+  geom_bar(fill = "#66CC33") +
+  labs(title = "Wordle Guess Distribution",
+       caption = "Created by Juan David Acosta using personal Wordle statistics.") +
+  xlab("Number of guesses to correctly guess word") +
+  ylab("Count") +
+  theme_minimal()
+bar_guesses
+```
+
+And there we have it! You can recreate your own Wordle guess distribution bar graph using the code above, simply updating some of the code above with your own data.
+
+That's a wrap on today's post!
