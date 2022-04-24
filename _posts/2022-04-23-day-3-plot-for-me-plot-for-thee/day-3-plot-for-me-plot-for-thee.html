@@ -1482,8 +1482,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p><a href="">Wordle</a> is a game that has taken the world by storm, especially since it offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for my Day 3 blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let’s do this!</p>
-<p>First, an important step is to always initialize the packages we will need for the task at hand. Since we will concern ourselves with crafting aesthetically-pleasing graphs, we will deploy the power of the <a href="">Tidyverse</a> to use the <a href="">ggplot2</a> graphing package. Since I will be entering the data manually, there is no need for a seed to ensure reproducibility.</p>
+<p><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a> is a game that has taken the world by storm, especially since it has offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for my Day 3 blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let’s do this!</p>
+<p>First, an important step is to always initialize the packages we will need for the task at hand. Since we will concern ourselves with crafting aesthetically-pleasing graphs, we will deploy the power of the <a href="https://www.tidyverse.org/">Tidyverse</a> to use the <a href="https://ggplot2.tidyverse.org/">ggplot2</a> graphing package. Since I will be entering the data manually, there is no need for a seed to ensure reproducibility.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Load in necessary library.</span>
@@ -1506,19 +1506,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>Third, let’s run some summary statistics on our Wordle data, such as the mean number of guesses it took to correctly guess the word of the day, the variance and standard deviation for the number of guesses, and the percentage for each of the number of guesses out of the total number of games won.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Preliminary work that groups the number of guesses in a tibble, and counts the number of occurrences for each number of guesses.</span>
-<span class='va'>grouped_guesses_table</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span>one_guess <span class='op'>=</span> <span class='fl'>0</span>,
-                        two_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>2</span><span class='op'>)</span>,
-                        three_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>3</span><span class='op'>)</span>,
-                        four_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>4</span><span class='op'>)</span>,
-                        five_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>5</span><span class='op'>)</span>,
-                        six_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>6</span><span class='op'>)</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Preliminary work that groups the number of guesses in a tibble, and counts </span>
+<span class='co'># the number of occurrences for each number of guesses.</span>
+<span class='va'>grouped_guesses_table</span> <span class='op'>&lt;-</span> 
+  <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span>one_guess <span class='op'>=</span> <span class='fl'>0</span>,
+         two_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>2</span><span class='op'>)</span>,
+         three_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>3</span><span class='op'>)</span>,
+         four_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>4</span><span class='op'>)</span>,
+         five_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>5</span><span class='op'>)</span>,
+         six_guesses <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>6</span><span class='op'>)</span><span class='op'>)</span>
 
 <span class='co'>## Represent as kable.</span>
-<span class='va'>grouped_guesses_kable</span> <span class='op'>&lt;-</span> <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>grouped_guesses_table</span>,
-                                      col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"One guess"</span>, <span class='st'>"Two guesses"</span>, <span class='st'>"Three guesses"</span>,
-                                                    <span class='st'>"Four guesses"</span>, <span class='st'>"Five guesses"</span>, <span class='st'>"Six guesses"</span><span class='op'>)</span>,
-                                      caption <span class='op'>=</span> <span class='st'>"Sum for each number of guesses."</span><span class='op'>)</span>
+<span class='va'>grouped_guesses_kable</span> <span class='op'>&lt;-</span> 
+  <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>grouped_guesses_table</span>,
+               col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"One guess"</span>, <span class='st'>"Two guesses"</span>, <span class='st'>"Three guesses"</span>,
+                             <span class='st'>"Four guesses"</span>, <span class='st'>"Five guesses"</span>, <span class='st'>"Six guesses"</span><span class='op'>)</span>,
+               caption <span class='op'>=</span> <span class='st'>"Sum for each number of guesses."</span><span class='op'>)</span>
 <span class='va'>grouped_guesses_kable</span>
 </code></pre>
 </div>
@@ -1547,21 +1550,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </table>
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Percentages for each of the number of guesses out of the total number of games won.</span>
-<span class='va'>percentage_guesses_table</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span>one_guess <span class='op'>=</span> <span class='fl'>0</span>,
-                                   two_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>2</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
-                                   three_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>3</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
-                                   four_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>4</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
-                                   five_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>5</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
-                                   six_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>6</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span><span class='op'>)</span>
+<span class='va'>percentage_guesses_table</span> <span class='op'>&lt;-</span> 
+  <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span>one_guess <span class='op'>=</span> <span class='fl'>0</span>,
+         two_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>2</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
+         three_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>3</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
+         four_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>4</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
+         five_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>5</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span>,
+         six_guesses <span class='op'>=</span> <span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>guesses</span> <span class='op'>==</span> <span class='fl'>6</span><span class='op'>)</span> <span class='op'>/</span> <span class='va'>games_won</span><span class='op'>)</span> <span class='op'>*</span> <span class='fl'>100</span><span class='op'>)</span>
 
 <span class='co'>## Round percentages to two decimal points in percentage_guesses_table.</span>
 <span class='va'>percentage_guesses_table</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/Round.html'>round</a></span><span class='op'>(</span><span class='va'>percentage_guesses_table</span>, <span class='fl'>2</span><span class='op'>)</span>
 
 <span class='co'>## Represent as kable.</span>
-<span class='va'>percentage_guesses_kable</span> <span class='op'>&lt;-</span> <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>percentage_guesses_table</span>,
-                                         col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"One guess"</span>, <span class='st'>"Two guesses"</span>, <span class='st'>"Three guesses"</span>,
-                                                    <span class='st'>"Four guesses"</span>, <span class='st'>"Five guesses"</span>, <span class='st'>"Six guesses"</span><span class='op'>)</span>,
-                                         caption <span class='op'>=</span> <span class='st'>"Percentage (%) of each number of guesses out of the total number of guesses."</span><span class='op'>)</span>
+<span class='va'>percentage_guesses_kable</span> <span class='op'>&lt;-</span> 
+  <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>percentage_guesses_table</span>,
+               col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"One guess"</span>, <span class='st'>"Two guesses"</span>, <span class='st'>"Three guesses"</span>,
+                             <span class='st'>"Four guesses"</span>, <span class='st'>"Five guesses"</span>, <span class='st'>"Six guesses"</span><span class='op'>)</span>,
+               caption <span class='op'>=</span> <span class='st'>"Percentage (%) of each number of guesses out of the total number of guesses."</span><span class='op'>)</span>
 <span class='va'>percentage_guesses_kable</span>
 </code></pre>
 </div>
@@ -1599,14 +1604,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='va'>sd_guesses</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/Round.html'>round</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/sd.html'>sd</a></span><span class='op'>(</span><span class='va'>guesses</span><span class='op'>)</span>, <span class='fl'>2</span><span class='op'>)</span>
 
 <span class='co'># Place the mean, variance, and standard deviation in a tibble.</span>
-<span class='va'>mean_var_sd_guesses</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span><span class='va'>mean_guesses</span>,
-                              <span class='va'>var_guesses</span>,
-                              <span class='va'>sd_guesses</span><span class='op'>)</span>
+<span class='va'>mean_var_sd_guesses</span> <span class='op'>&lt;-</span> 
+  <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span><span class='va'>mean_guesses</span>,
+         <span class='va'>var_guesses</span>,
+         <span class='va'>sd_guesses</span><span class='op'>)</span>
 
 <span class='co'>## Represent as kable.</span>
-<span class='va'>mean_var_sd_kable</span> <span class='op'>&lt;-</span> <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>mean_var_sd_guesses</span>,
-                                  col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Mean"</span>, <span class='st'>"Variance"</span>, <span class='st'>"Standard deviation"</span><span class='op'>)</span>,
-                                  caption <span class='op'>=</span> <span class='st'>"Mean, variance and standard deviation for number of guesses."</span><span class='op'>)</span>
+<span class='va'>mean_var_sd_kable</span> <span class='op'>&lt;-</span> 
+  <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>mean_var_sd_guesses</span>,
+               col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Mean"</span>, <span class='st'>"Variance"</span>, <span class='st'>"Standard deviation"</span><span class='op'>)</span>,
+               caption <span class='op'>=</span> <span class='st'>"Mean, variance and standard deviation for number of guesses."</span><span class='op'>)</span>
 <span class='va'>mean_var_sd_kable</span>
 </code></pre>
 </div>
@@ -1648,7 +1655,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <p><img src="day-3-plot-for-me-plot-for-thee_files/figure-html5/unnamed-chunk-4-1.png" width="624" /></p>
 </div>
-<p>And there we have it! You can recreate your own Wordle guess distribution bar graph using the code above, simply updating some of the code above with your own data.</p>
+<p>And there we have it! You can recreate your own Wordle guess distribution bar graph using the code above, simply updating some of the code with your own data.</p>
 <p>That’s a wrap on today’s post!</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
