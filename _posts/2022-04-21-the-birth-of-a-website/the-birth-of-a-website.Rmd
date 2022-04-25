@@ -5,6 +5,9 @@ description: |
 author:
   - name: Juan David Acosta
 date: 2022-04-21
+categories:
+  - Project
+preview: pexels-pixabay-270360.jpg
 output:
   distill::distill_article:
     self_contained: false
@@ -14,6 +17,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+![Turned-on Computer Monitor Displaying Text.](pexels-pixabay-270360.jpg)
+(Photo by Pixabay: https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/)
 
 Building a website seems to be one of the fundamental basics that one must have at this point in the 21st century. A website for your business. A website for your portfolio of projects. I had attempted to make websites in the past, mostly for the times I had considered becoming a content creator, or when I fell for the allure and ease-of-use of Apple's iWeb (this is where I date myself), but those endeavours quickly fell apart. It was a combination of no clear focus for those websites, and the amount of time that I would have to spend on them.
 

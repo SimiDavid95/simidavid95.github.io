@@ -1,0 +1,29 @@
+---
+title: "A Day 4 rest"
+description: |
+  Taking a day to recharge.
+author:
+  - name: Juan David Acosta
+date: 2022-04-24
+categories:
+  - Life
+  - Project
+preview: pexels-lisa-fotios-1471991.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![Person Laying on Sofa While Reading Book.](pexels-lisa-fotios-1471991.jpg)
+(Photo by Lisa Fotios: https://www.pexels.com/photo/person-laying-on-sofa-while-reading-book-1471991/)
+
+For Day 4 of the blog, since I took the day off from doing major updates to the website, I thought I would simply talk about my day. With beautiful weather finally arriving in Toronto today, I thought it best to take this day as one to recharge. I took in the sunlight outdoors, ate a barbecue, and shared in some de-stressing family time. Recharging truly does wonders for my mental state. It allows me time to pause and reflect on the events that have occurred up until that point, and the goals and dreams that I wish to pursue afterwards. It takes me away from the hustle and bustle, if only for a little while.
+
+Now that I am recharged, I am ready to take on the week ahead, and the various projects and goals that I have on deck. One of those projects is the website, which I plan to update extensively over the coming week, including filling in the remaining blank sections. In the words of a lovable sponge that lives in a pineapple under the sea, "I'm ready!"
+
+That's a wrap on today's post!

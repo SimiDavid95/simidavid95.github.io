@@ -5,6 +5,10 @@ description: |
 author:
   - name: Juan David Acosta
 date: 2022-04-22
+categories:
+  - Opinion
+  - Environment
+  - Project
 preview: pexels-akil-mazumder-1072824.jpg
 output:
   distill::distill_article:

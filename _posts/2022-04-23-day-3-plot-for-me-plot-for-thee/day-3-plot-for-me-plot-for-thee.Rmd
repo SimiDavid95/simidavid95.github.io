@@ -5,6 +5,11 @@ description: |
 author:
   - name: Juan David Acosta
 date: 2022-04-23
+categories:
+  - Data analysis
+  - Statistics
+  - Data visualization
+  - Wordle
 output:
   distill::distill_article:
     self_contained: false
@@ -24,7 +29,7 @@ First, an important step is to always initialize the packages we will need for t
 library(tidyverse)
 ```
 
-Second, let's create our data. Wordle tracks statistics such as the number of games played and the guess distribution (i.e. how many games were won with one guess, two guesses, ..., six guesses). These are the 
+Second, let's create our data. Wordle tracks statistics such as the number of games played and the guess distribution (i.e. how many games were won with one guess, two guesses, ..., six guesses). These are the data that we need for our summary statistics and plot, so let's manually input the number of games won (which in this case is the same as the number of games played) and the guess distribution.
 
 ```{r, echo=TRUE}
 # Variable with number of games won, which is also the number of games played.
