@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-04-25-day-5-on-425/",
+    "title": "Day 5 on 4.25",
+    "description": "Website updates on a rainy day.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-25",
+    "categories": [
+      "Project"
+    ],
+    "contents": "\r\n (Screenshot by Juan David Acosta)\r\nA rainy day is such a delight to me. Seeing the raindrops fall from my study room window is a peaceful sensation. Perfect for a day of website updates! The educational projects section is beginning to take shape, and I’m making some organizational changes on my GitHub as a result. Since I was taught to put a major emphasis on reproducibility, I am making sure that the projects that I am posting here (and on my GitHub for that matter) have both the PDF report and the code file, along with any data that was used. While the data that I have accessed for my projects is open data (unless I used my own data), I will only be uploading the cleaned data to also ensure that no sensitive information is uploaded, and so this may require some modifications in the code files before they too are updated. This should all be hopefully completed in the coming days.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-04-25-day-5-on-425/day-5-screenshot-001.jpg",
+    "last_modified": "2022-04-25T19:03:05-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-24-a-day-4-rest/",
     "title": "A Day 4 rest",
     "description": "Taking a day to recharge.",

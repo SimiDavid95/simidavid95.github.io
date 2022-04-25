@@ -1,0 +1,26 @@
+---
+title: "Day 5 on 4.25"
+description: |
+  Website updates on a rainy day.
+author:
+  - name: Juan David Acosta
+date: 2022-04-25
+categories:
+  - Project
+preview: day-5-screenshot-001.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![Screenshot of Juan David Acosta's Project-Reports repository on GitHub.](day-5-screenshot-001.jpg)
+(Screenshot by Juan David Acosta)
+
+A rainy day is such a delight to me. Seeing the raindrops fall from my study room window is a peaceful sensation. Perfect for a day of website updates! The educational projects section is beginning to take shape, and I'm making some organizational changes on my GitHub as a result. Since I was taught to put a major emphasis on reproducibility, I am making sure that the projects that I am posting here (and on my GitHub for that matter) have both the PDF report and the code file, along with any data that was used. While the data that I have accessed for my projects is open data (unless I used my own data), I will only be uploading the cleaned data to also ensure that no sensitive information is uploaded, and so this may require some modifications in the code files before they too are updated. This should all be hopefully completed in the coming days.
+
+That's a wrap on today's post!

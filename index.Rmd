@@ -20,3 +20,5 @@ site: distill::distill_website
 Hello and welcome to my website! My name is Juan David Acosta, though you can call me either Juan or David, whichever name you prefer. My preferred pronouns are he/him/his. I am a Colombian-Canadian currently living in Toronto, where I am completing my undergraduate studies at the University of Toronto, pursuing a Bachelor of Science in Statistics, with minors in both Mathematics and the History and Philosophy of Science and Technology.
 
 When I am not creating a ggplot or cleaning a dataset for analysis, you can find me cooking up tried and true recipes, catching up on my favourite shows (sci-fi is my absolute favourite genre!), looking up at the Moon through my telescope, or building cities on my computer.
+
+**NOTE: This website is currently under development, so there may be some empty sections that will be filled in promptly.**
