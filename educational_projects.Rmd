@@ -27,3 +27,22 @@ The conclusion reveals that it cannot be conclusively determined that any of the
 The code for this project, which is an Rmd file, can be found here: [Code](https://github.com/SimiDavid95/Project-Reports/blob/main/Money-Tree-Experimental-Design-Study/Money%20Tree%20Experimental%20Design%20Study.Rmd)
 
 The PDF report for this project can be found here: [Report](https://github.com/SimiDavid95/Project-Reports/blob/main/Money-Tree-Experimental-Design-Study/Money-Tree-Experimental-Design-Study.pdf)
+
+
+# Toronto Traffic During Pandemic Observational Study
+
+## Abstract
+
+The COVID-19 pandemic affected many aspects of our lives, including commuting habits. As lockdowns were introduced around the world, including in the Canadian city of Toronto, traffic levels dropped significantly for all modes of travel. As the pandemic progressed, there were also shifts in travel preferences, where more Torontonians preferred to get around by walking or riding a bike as opposed to driving or taking public transit.
+
+This report investigates whether the number of cars per cyclist/pedestrian that travel through intersections in Toronto increased, decreased, or stayed the same as the pandemic progressed. Data was obtained from the Toronto Open Data portal and was cleaned, analyzed and plotted to perform exploratory data analysis. The data was fit to a multiple linear regression model in order to project the data into the future, and the model predicts that the number of cars per cyclist/pedestrian will increase given the effects of the independent variables.
+
+The conclusion reveals that as that as the pandemic progresses, the number of cars per cyclist/pedestrian will increase, which is consistent with the lifting of lockdown and pandemic measures, which will contribute to traffic levels normalizing as more residents of Toronto go back to their in-person jobs, and more businesses either reopen or reduce their pandemic restrictions. However, the data does show that the early period of the pandemic led to a slight decrease of cars per cyclist/pedestrian, pointing to more residents preferring to either walk or bike as opposed to drive. This information can be used by the city to promote ambitions plans to expand cycling infrastructure and increase pedestrian walking spaces, in order to promote these modes of transportation and exercise.
+
+## Code, PDF and Cleaned Data
+
+The code for this project, which is an Rmd file, can be found here: [Code](https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/Traffic%20in%20Toronto%20During%20Pandemic.Rmd)
+
+The PDF report for this project can be found here: [Report](https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/Traffic-in-Toronto-During-Pandemic.pdf)
+
+The cleaned data for this project can be found here: [Cleaned data](https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/cleaned_toronto_traffic_data.csv)
