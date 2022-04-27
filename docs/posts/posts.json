@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2022-04-27-wednesday-is-tidy-tuesday-on-day-7/",
+    "title": "Wednesday is Tidy Tuesday on Day 7",
+    "description": "My Tidy Tuesday contribution has been posted!",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-27",
+    "categories": [
+      "Tidy Tuesday",
+      "Project"
+    ],
+    "contents": "\r\nIt may be a day late, but my Tidy Tuesday contribution has been posted! This week the data made available for the challenge was a dataset of entries for the Kaggle “Hidden Gems” notebook project, which aims to put a spotlight on notebooks that deserve more recognition than they have received. I decided to create a word cloud to visualize the most commonly used topics in the notebook titles, where the larger the word in the word cloud, the more times it was used. This required cleaning the data to only leave the relevant data, which boiled down to each unique word found in the notebook titles (except for non-significant words such as “and”, “of”, “to”, etc.) and the number of times in total that they were used.\r\nThe code for my Tidy Tuesday entry for April 26, 2022 can be found here: Code\r\nFor more information on Tidy Tuesday, click here.\r\nPicture of a word cloud depicting the most commonly referred topics in Kaggle “Hidden Gems” notebooks, where the bigger the word, the more times it was used.That’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": "https://raw.githubusercontent.com/SimiDavid95/Tidy-Tuesdays/main/2022/Week-17/tidy_tuesday_april_26_2022.jpeg",
+    "last_modified": "2022-04-27T19:24:04-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-26-day-6-website-updates/",
     "title": "Day 6 website updates on 4.26",
     "description": "New content in Educational Projects + Tidy Tuesday post delayed.",
