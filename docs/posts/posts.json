@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-04-26-day-6-website-updates/",
+    "title": "Day 6 website updates on 4.26",
+    "description": "New content in Educational Projects + Tidy Tuesday post delayed.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-26",
+    "categories": [
+      "Project"
+    ],
+    "contents": "\r\nWow, Day 6 already! Almost at the end of the first week of the website (and this blog) going live, and it does kind of feel like a blur with all the updates that have been going on. Another project has been added to the Educational Projects section of the website, and that section is starting to take shape. More projects are forthcoming, once I adapt them for public consumption and reproducibility (making sure there isn’t any sensitive data that’s being shared, for example). Other sections such as “Beyond the Data” should hopefully be updated by the time the weekend rolls around, which is ultimately my timeline for completing all the major sections of the website. Of course after that the website will continue to be updated with new content, especially with Tidy Tuesday weekly submissions. And that brings me to the final part of this post, which is that there is a delay in my Tidy Tuesday post for this week, so I should hopefully be posting it on Wednesday through my personal Twitter, and I’ll post it here as well.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-04-26T23:51:46-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-25-day-5-on-425/",
     "title": "Day 5 on 4.25",
     "description": "Website updates on a rainy day.",
