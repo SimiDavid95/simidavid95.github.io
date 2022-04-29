@@ -7,7 +7,7 @@ author:
 date: 2022-04-27
 categories:
   - Tidy Tuesday
-  - Project
+  - Website updates
 preview: https://raw.githubusercontent.com/SimiDavid95/Tidy-Tuesdays/main/2022/Week-17/tidy_tuesday_april_26_2022.jpeg
 output:
   distill::distill_article:

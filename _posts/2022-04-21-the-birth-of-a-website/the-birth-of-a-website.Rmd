@@ -6,7 +6,7 @@ author:
   - name: Juan David Acosta
 date: 2022-04-21
 categories:
-  - Project
+  - Website updates
 preview: pexels-pixabay-270360.jpg
 output:
   distill::distill_article:

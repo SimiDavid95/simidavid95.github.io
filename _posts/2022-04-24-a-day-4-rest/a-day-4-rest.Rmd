@@ -7,7 +7,7 @@ author:
 date: 2022-04-24
 categories:
   - Life
-  - Project
+  - Website updates
 preview: pexels-lisa-fotios-1471991.jpg
 output:
   distill::distill_article:

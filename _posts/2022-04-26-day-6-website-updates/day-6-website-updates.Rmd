@@ -6,7 +6,7 @@ author:
   - name: Juan David Acosta
 date: 2022-04-26
 categories:
-  - Project
+  - Website updates
 output:
   distill::distill_article:
     self_contained: false

@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-04-29-a-sunny-day-9-for-website-updates/",
+    "title": "A sunny Day 9 for website updates",
+    "description": "Building out the \"Beyond the Data\" section.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-29",
+    "categories": [
+      "Website updates"
+    ],
+    "contents": "\r\n (Photo by Lisa Fotios: https://www.pexels.com/photo/hand-under-sun-and-tree-1198109/)\r\nThe sunshine has finally come our way here in Toronto, and along with it are more updates to the website. The “Beyond the Data” section has been filled out, and images should be added soon to give the page a bit more flair. It’s been a fun section to work on, because I get to highlight parts of my life that may not be apparent from a resume. Completing this section also means that all the major sections of the website now have content! This website will continually be updated, with new blog and Tidy Tuesday entries, educational projects that I still have to modify to publicly share them, other projects (including one currently in the works!), and updates to my resume as they come.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-04-29-a-sunny-day-9-for-website-updates/pexels-lisa-fotios-1198109.jpg",
+    "last_modified": "2022-04-29T15:57:03-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-28-a-lovely-day-8-for-regression-analysis/",
     "title": "A lovely Day 8 for regression analysis",
     "description": "Practicing regression analysis using fictional data.",
@@ -34,11 +53,11 @@
     "date": "2022-04-27",
     "categories": [
       "Tidy Tuesday",
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\nIt may be a day late, but my Tidy Tuesday contribution has been posted! This week the data made available for the challenge was a dataset of entries for the Kaggle “Hidden Gems” notebook project, which aims to put a spotlight on notebooks that deserve more recognition than they have received. I decided to create a word cloud to visualize the most commonly used topics in the notebook titles, where the larger the word in the word cloud, the more times it was used. This required cleaning the data to only leave the relevant data, which boiled down to each unique word found in the notebook titles (except for non-significant words such as “and”, “of”, “to”, etc.) and the number of times in total that they were used.\r\nThe code for my Tidy Tuesday entry for April 26, 2022 can be found here: Code\r\nFor more information on Tidy Tuesday, click here.\r\nPicture of a word cloud depicting the most commonly referred topics in Kaggle “Hidden Gems” notebooks, where the bigger the word, the more times it was used.That’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": "https://raw.githubusercontent.com/SimiDavid95/Tidy-Tuesdays/main/2022/Week-17/tidy_tuesday_april_26_2022.jpeg",
-    "last_modified": "2022-04-27T19:24:04-04:00",
+    "last_modified": "2022-04-29T16:01:30-04:00",
     "input_file": {}
   },
   {
@@ -53,11 +72,11 @@
     ],
     "date": "2022-04-26",
     "categories": [
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\nWow, Day 6 already! Almost at the end of the first week of the website (and this blog) going live, and it does kind of feel like a blur with all the updates that have been going on. Another project has been added to the Educational Projects section of the website, and that section is starting to take shape. More projects are forthcoming, once I adapt them for public consumption and reproducibility (making sure there isn’t any sensitive data that’s being shared, for example). Other sections such as “Beyond the Data” should hopefully be updated by the time the weekend rolls around, which is ultimately my timeline for completing all the major sections of the website. Of course after that the website will continue to be updated with new content, especially with Tidy Tuesday weekly submissions. And that brings me to the final part of this post, which is that there is a delay in my Tidy Tuesday post for this week, so I should hopefully be posting it on Wednesday through my personal Twitter, and I’ll post it here as well.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-26T23:51:46-04:00",
+    "last_modified": "2022-04-29T16:01:57-04:00",
     "input_file": {}
   },
   {
@@ -72,11 +91,11 @@
     ],
     "date": "2022-04-25",
     "categories": [
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\n (Screenshot by Juan David Acosta)\r\nA rainy day is such a delight to me. Seeing the raindrops fall from my study room window is a peaceful sensation. Perfect for a day of website updates! The educational projects section is beginning to take shape, and I’m making some organizational changes on my GitHub as a result. Since I was taught to put a major emphasis on reproducibility, I am making sure that the projects that I am posting here (and on my GitHub for that matter) have both the PDF report and the code file, along with any data that was used. While the data that I have accessed for my projects is open data (unless I used my own data), I will only be uploading the cleaned data to also ensure that no sensitive information is uploaded, and so this may require some modifications in the code files before they too are updated. This should all be hopefully completed in the coming days.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-04-25-day-5-on-425/day-5-screenshot-001.jpg",
-    "last_modified": "2022-04-25T19:03:05-04:00",
+    "last_modified": "2022-04-29T16:02:18-04:00",
     "input_file": {}
   },
   {
@@ -92,11 +111,11 @@
     "date": "2022-04-24",
     "categories": [
       "Life",
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\n (Photo by Lisa Fotios: https://www.pexels.com/photo/person-laying-on-sofa-while-reading-book-1471991/)\r\nFor Day 4 of the blog, since I took the day off from doing major updates to the website, I thought I would simply talk about my day. With beautiful weather finally arriving in Toronto today, I thought it best to take this day as one to recharge. I took in the sunlight outdoors, ate a barbecue, and shared in some de-stressing family time. Recharging truly does wonders for my mental state. It allows me time to pause and reflect on the events that have occurred up until that point, and the goals and dreams that I wish to pursue afterwards. It takes me away from the hustle and bustle, if only for a little while.\r\nNow that I am recharged, I am ready to take on the week ahead, and the various projects and goals that I have on deck. One of those projects is the website, which I plan to update extensively over the coming week, including filling in the remaining blank sections. In the words of a lovable sponge that lives in a pineapple under the sea, “I’m ready!”\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-04-24-a-day-4-rest/pexels-lisa-fotios-1471991.jpg",
-    "last_modified": "2022-04-24T22:01:35-04:00",
+    "last_modified": "2022-04-29T16:02:38-04:00",
     "input_file": {}
   },
   {
@@ -135,11 +154,11 @@
     "categories": [
       "Opinion",
       "Environment",
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\n (Photo by Akil Mazumder: https://www.pexels.com/photo/person-holding-a-green-plant-1072824/)\r\nToday is Earth Day. A day when we reflect upon the state of our planet. With the climate crisis we are facing today, it can seem that the future is bleak, especially for the young generations that will face the brunt force of a warmer planet. However, I would like to highlight the positives, the reasons to have hope that, while we may not be able to prevent all the consequences of climate change, we can at least unite together to mitigate the most harmful outcomes. We have become more conscious of our impact on the well-being of Earth’s diverse biosphere, and are taking steps to help in any way we can to reduce that impact, whether it be buying an electric vehicle, shopping with reusable bags, planting trees, recycling, etc. It is not futile. It is not too late. Through hope and action, we can help preserve the only planet that we call home, Earth.\r\nPivoting from Earth Day, I have decided to continue posting at least one blog a day, every day! There are no guarantees for this, but I am striving to keep this up as not only an exercise in writing, but also in communicating my thoughts and ideas to the world. Thus, it will be an integral part of this website. And speaking of the website, major progress has been made in building out the rest of the website’s sections. Of course, this will be a continuing endeavour as time progresses.\r\nThat’s a wrap for this post!\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-04-22-day-2-on-422/pexels-akil-mazumder-1072824.jpg",
-    "last_modified": "2022-04-24T19:59:18-04:00",
+    "last_modified": "2022-04-29T16:03:08-04:00",
     "input_file": {}
   },
   {
@@ -154,11 +173,11 @@
     ],
     "date": "2022-04-21",
     "categories": [
-      "Project"
+      "Website updates"
     ],
     "contents": "\r\n (Photo by Pixabay: https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/)\r\nBuilding a website seems to be one of the fundamental basics that one must have at this point in the 21st century. A website for your business. A website for your portfolio of projects. I had attempted to make websites in the past, mostly for the times I had considered becoming a content creator, or when I fell for the allure and ease-of-use of Apple’s iWeb (this is where I date myself), but those endeavours quickly fell apart. It was a combination of no clear focus for those websites, and the amount of time that I would have to spend on them.\r\nNow, however, I have found a purpose for building a website. I am looking to break ground on my future career as a data analyst or data scientist, and it is imperative to have a central, aesthetically-pleasing looking place to highlight my projects and competencies, as well as my thoughts (like through this here blog) and ways to get in contact with me. Thus, a website is a must. And, with my intermediate knowledge of R and RStudio, what better way to put that knowledge into practice than by building a website using both R and RStudio?\r\nThus, this journey started. After consulting various articles and tutorials (that will eventually be linked here once the site is a bit more polished), the website has officially made its internet debut! There’s nothing too fancy here at the moment, but it shall soon be filled to the brim with more blog posts, projects (such as my educational projects and Tidy Tuesday submissions), biography, contact information, etc. So please, grab some snacks and drinks that I’ve set out on the table there, and take a look around!\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-04-21-the-birth-of-a-website/pexels-pixabay-270360.jpg",
-    "last_modified": "2022-04-24T21:38:10-04:00",
+    "last_modified": "2022-04-29T16:03:48-04:00",
     "input_file": {}
   }
 ]
