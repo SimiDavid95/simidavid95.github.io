@@ -87,635 +87,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Juan David Acosta: Blog</title>
+  <title>A lovely Day 8 for regression analysis</title>
+
+  <meta property="description" itemprop="description" content="Practicing regression analysis using fictional data."/>
 
 
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-04-28"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-04-28"/>
+  <meta name="article:author" content="Juan David Acosta"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Juan David Acosta: Blog"/>
+  <meta property="og:title" content="A lovely Day 8 for regression analysis"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Practicing regression analysis using fictional data."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Juan David Acosta"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Juan David Acosta: Blog"/>
+  <meta property="twitter:title" content="A lovely Day 8 for regression analysis"/>
+  <meta property="twitter:description" content="Practicing regression analysis using fictional data."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Blog"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["A lovely Day 8 for regression analysis"]},{"type":"character","attributes":{},"value":["Practicing regression analysis using fictional data.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Juan David Acosta"]}]}]},{"type":"character","attributes":{},"value":["2022-04-28"]},{"type":"character","attributes":{},"value":["Regression","Statistics","Data analysis","Data visualization"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["a-lovely-day-8-for-regression-analysis_files/anchor-4.2.2/anchor.min.js","a-lovely-day-8-for-regression-analysis_files/bowser-1.9.3/bowser.min.js","a-lovely-day-8-for-regression-analysis_files/distill-2.2.21/template.v2.js","a-lovely-day-8-for-regression-analysis_files/figure-html5/unnamed-chunk-4-1.png","a-lovely-day-8-for-regression-analysis_files/figure-html5/unnamed-chunk-7-1.png","a-lovely-day-8-for-regression-analysis_files/header-attrs-2.13/header-attrs.js","a-lovely-day-8-for-regression-analysis_files/jquery-3.6.0/jquery-3.6.0.js","a-lovely-day-8-for-regression-analysis_files/jquery-3.6.0/jquery-3.6.0.min.js","a-lovely-day-8-for-regression-analysis_files/jquery-3.6.0/jquery-3.6.0.min.map","a-lovely-day-8-for-regression-analysis_files/popper-2.6.0/popper.min.js","a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy-bundle.umd.min.js","a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy-light-border.css","a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy.css","a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy.umd.min.js","a-lovely-day-8-for-regression-analysis_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2034,439 +1438,306 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/header-attrs-2.13/header-attrs.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/popper-2.6.0/popper.min.js"></script>
+  <link href="a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="a-lovely-day-8-for-regression-analysis_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="a-lovely-day-8-for-regression-analysis_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Blog","authors":[]}
+{"title":"A lovely Day 8 for regression analysis","description":"Practicing regression analysis using fictional data.","authors":[{"author":"Juan David Acosta","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-04-28T00:00:00.000-04:00","citationText":"Acosta, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Juan David Acosta</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="cv_resume.html">CV/Resume</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Projects
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="educational_projects.html">Educational Projects</a>
-<a href="tidy_tuesday.html">Tidy Tuesday</a>
-<a href="other_projects.html">Other Projects</a>
-</div>
-</div>
-<a href="blog.html">Blog</a>
-<a href="beyond_the_data.html">Beyond the Data</a>
-<a href="https://linkedin.com/in/juan-david-acosta">
-<i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-<a href="https://github.com/SimiDavid95">
-<i class="fa fa-github" aria-hidden="true"></i>
-</a>
-<a href="https://twitter.com/davidacosta95">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="mailto:davidacosta@outlook.com">
-<i class="fa fa-envelope" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Blog">Blog</h1>
-<a href="posts/2022-04-28-a-lovely-day-8-for-regression-analysis/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Regression","Statistics","Data analysis","Data visualization"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 28, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-04-28-a-lovely-day-8-for-regression-analysis/a-lovely-day-8-for-regression-analysis_files/figure-html5/unnamed-chunk-4-1.png"/>
-</div>
-<div class="description">
-<h2>A lovely Day 8 for regression analysis</h2>
-<div class="dt-tags">
-<div class="dt-tag">Regression</div>
-<div class="dt-tag">Statistics</div>
-<div class="dt-tag">Data analysis</div>
-<div class="dt-tag">Data visualization</div>
-</div>
-<p>Practicing regression analysis using fictional data.</p>
-</div>
-</a>
-<a href="posts/2022-04-27-wednesday-is-tidy-tuesday-on-day-7/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Tidy Tuesday","Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 27, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="https://raw.githubusercontent.com/SimiDavid95/Tidy-Tuesdays/main/2022/Week-17/tidy_tuesday_april_26_2022.jpeg"/>
-</div>
-<div class="description">
-<h2>Wednesday is Tidy Tuesday on Day 7</h2>
-<div class="dt-tags">
-<div class="dt-tag">Tidy Tuesday</div>
-<div class="dt-tag">Project</div>
-</div>
-<p>My Tidy Tuesday contribution has been posted!</p>
-</div>
-</a>
-<a href="posts/2022-04-26-day-6-website-updates/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 26, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Day 6 website updates on 4.26</h2>
-<div class="dt-tags">
-<div class="dt-tag">Project</div>
-</div>
-<p>New content in Educational Projects + Tidy Tuesday post delayed.</p>
-</div>
-</a>
-<a href="posts/2022-04-25-day-5-on-425/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 25, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-04-25-day-5-on-425/day-5-screenshot-001.jpg"/>
-</div>
-<div class="description">
-<h2>Day 5 on 4.25</h2>
-<div class="dt-tags">
-<div class="dt-tag">Project</div>
-</div>
-<p>Website updates on a rainy day.</p>
-</div>
-</a>
-<a href="posts/2022-04-24-a-day-4-rest/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Life","Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 24, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-04-24-a-day-4-rest/pexels-lisa-fotios-1471991.jpg"/>
-</div>
-<div class="description">
-<h2>A Day 4 rest</h2>
-<div class="dt-tags">
-<div class="dt-tag">Life</div>
-<div class="dt-tag">Project</div>
-</div>
-<p>Taking a day to recharge.</p>
-</div>
-</a>
-<a href="posts/2022-04-23-day-3-plot-for-me-plot-for-thee/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Data analysis","Statistics","Data visualization","Wordle"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 23, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2022-04-23-day-3-plot-for-me-plot-for-thee/day-3-plot-for-me-plot-for-thee_files/figure-html5/unnamed-chunk-4-1.png"/>
-</div>
-<div class="description">
-<h2>Plot for me, plot for thee on Day 3</h2>
-<div class="dt-tags">
-<div class="dt-tag">Data analysis</div>
-<div class="dt-tag">Statistics</div>
-<div class="dt-tag">Data visualization</div>
-<div class="dt-tag">Wordle</div>
-</div>
-<p>Calculating summary statistics and creating a bar plot from my Wordle statistics.</p>
-</div>
-</a>
-<a href="posts/2022-04-22-day-2-on-422/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Opinion","Environment","Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 22, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2022-04-22-day-2-on-422/pexels-akil-mazumder-1072824.jpg"/>
-</div>
-<div class="description">
-<h2>Day 2 on 4.22</h2>
-<div class="dt-tags">
-<div class="dt-tag">Opinion</div>
-<div class="dt-tag">Environment</div>
-<div class="dt-tag">Project</div>
-</div>
-<p>An Earth Day post, and more.</p>
-</div>
-</a>
-<a href="posts/2022-04-21-the-birth-of-a-website/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Project"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 21, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Juan David Acosta</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2022-04-21-the-birth-of-a-website/pexels-pixabay-270360.jpg"/>
-</div>
-<div class="description">
-<h2>The birth of a website</h2>
-<div class="dt-tags">
-<div class="dt-tag">Project</div>
-</div>
-<p>From concept to reality.</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:Articles">Articles</a>
-<span class="category-count">(8)</span>
-</li>
-<li>
-<a href="#category:Data_analysis">Data analysis</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:Data_visualization">Data visualization</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:Environment">Environment</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:Life">Life</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:Opinion">Opinion</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:Project">Project</a>
-<span class="category-count">(6)</span>
-</li>
-<li>
-<a href="#category:Regression">Regression</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:Statistics">Statistics</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:Tidy_Tuesday">Tidy Tuesday</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:Wordle">Wordle</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Blog</h1>
+<h1>A lovely Day 8 for regression analysis</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">Regression</div>
+<div class="dt=tag">Statistics</div>
+<div class="dt=tag">Data analysis</div>
+<div class="dt=tag">Data visualization</div>
+</div>
 <!--/radix_placeholder_categories-->
-
+<p><p>Practicing regression analysis using fictional data.</p></p>
 </div>
 
+<div class="d-byline">
+  Juan David Acosta  
+  
+<br/>2022-04-28
+</div>
 
 <div class="d-article">
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>For today’s blog post on this sunny Thursday in Toronto, I thought it would be great to get in some practice with regression analysis! What we’ll be doing is the following: create fictional data that approximates a linear trend, visualize the data, fit a simple linear regression model to the data, visualize this fit using a line of best fit on our data visual, and make predictions using the model. Let’s do this!</p>
+<p>First, load in any libraries that are necessary to run our code. Whether or not I use it, I always find it to be good practice to load in the Tidyverse, since it is such a prominent collection of tidy libraries when it comes to data cleaning, analysis and visualization. I also find it a best practice to set a seed for reproducibility of random data; it may not be necessary in this case, but I like to set one just in case.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Load in necessary library.</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
+
+<span class='co'># Set seed.</span>
+<span class='fu'><a href='https://rdrr.io/r/base/Random.html'>set.seed</a></span><span class='op'>(</span><span class='fl'>314159</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>By this point in the blog, you should start to notice that I have a particularly favourite seed number (and I do love pie, mmm).</p>
+<p>Now, with preliminaries out of the way, we can shift our focus to the data. For today’s practice, let’s say we want to predict a student’s grade for the final exam in a particular course, let’s say Economics 101, based on the amount of time in hours that they studied. The data we will record is thus a student’s grade percentage on the final exam, and their corresponding number of hours that they spent studying for the final exam. Let’s assume we recorded the grades for 20 students.</p>
+<p>For the sake of simplicity, the data will be recorded in order from the lowest grade achieved on the final exam, to the highest grade.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Create a student id vector from one to 20.</span>
+<span class='va'>student_id</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>:</span><span class='fl'>20</span><span class='op'>)</span>
+
+<span class='co'># Create a vector for the final exam grades for 20 students in Economics 101,</span>
+<span class='co'># ordered from the lowest grade to the highest grade.</span>
+<span class='va'>final_grades</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>37</span>, <span class='fl'>47.5</span>, <span class='fl'>53.5</span>, <span class='fl'>57.5</span>, <span class='fl'>58</span>, <span class='fl'>60</span>, <span class='fl'>63.5</span>, <span class='fl'>64</span>, <span class='fl'>64</span>, <span class='fl'>65</span>,
+                  <span class='fl'>67</span>, <span class='fl'>69</span>, <span class='fl'>72</span>, <span class='fl'>72.5</span>, <span class='fl'>72.5</span>, <span class='fl'>77</span>, <span class='fl'>81</span>, <span class='fl'>85</span>, <span class='fl'>92</span>, <span class='fl'>95.5</span><span class='op'>)</span>
+
+<span class='co'># Create a vector for the number of hours the 20 students from Economics 101</span>
+<span class='co'># studied for the final exam. These hours correspond positionally to the</span>
+<span class='co'># grades entered in the final_grades vector.</span>
+<span class='va'>hours_studied</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='fl'>1</span>, <span class='fl'>1</span>, <span class='fl'>2</span>, <span class='fl'>3</span>, <span class='fl'>5</span>, <span class='fl'>5</span>, <span class='fl'>4</span>, <span class='fl'>4</span>, <span class='fl'>5</span>,
+                   <span class='fl'>7</span>, <span class='fl'>5</span>, <span class='fl'>7</span>, <span class='fl'>8</span>, <span class='fl'>10</span>, <span class='fl'>8</span>, <span class='fl'>9</span>, <span class='fl'>9</span>, <span class='fl'>11</span>, <span class='fl'>12</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>This data would be nicer in a tibble (see, the Tidyverse always comes in handy!). Let’s make it so!</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Store final_grades and hours_studied as variables in a tibble.</span>
+<span class='va'>grades_hours_tibble</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span><span class='va'>student_id</span>, <span class='va'>final_grades</span>, <span class='va'>hours_studied</span><span class='op'>)</span>
+
+<span class='co'># View tibble as a kable.</span>
+<span class='va'>grades_hours_kable</span> <span class='op'>&lt;-</span> 
+  <span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span><span class='op'>(</span><span class='va'>grades_hours_tibble</span>,
+               format <span class='op'>=</span> <span class='st'>"pipe"</span>,
+               col.names <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Student ID"</span>, <span class='st'>"Final exam grades (%)"</span>,
+                             <span class='st'>"Number of hours studied"</span><span class='op'>)</span>,
+               caption <span class='op'>=</span> <span class='st'>"Final exam grades (in %) and number of hours studied for students in Economics 101"</span><span class='op'>)</span>
+<span class='va'>grades_hours_kable</span>
+</code></pre>
+</div>
+<table>
+<caption><span id="tab:unnamed-chunk-3">Table 1: </span>Final exam grades (in %) and number of hours studied for students in Economics 101</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Student ID</th>
+<th style="text-align: right;">Final exam grades (%)</th>
+<th style="text-align: right;">Number of hours studied</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">37.0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">47.5</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">53.5</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">57.5</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">58.0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">60.0</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">63.5</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">64.0</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">64.0</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">65.0</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">67.0</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">69.0</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">72.0</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">72.5</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">72.5</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">77.0</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">81.0</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">85.0</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">92.0</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">95.5</td>
+<td style="text-align: right;">12</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>From the fictional data, we can clearly see that there seems to be a strong correlation between the final exam grade a student received in Economics 101, and the number of hours they spent studying for the final exam. That is, the lower the number of hours they studied, the lower their mark will be, and conversely, the higher the number of hours they studied, the higher their mark will be. We want to be more rigorous about this, so we will now visualize the data to see if we can visually spot this linear correlation.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Create a scatter plot of the data.</span>
+<span class='va'>grades_hours_plot</span> <span class='op'>&lt;-</span>
+  <span class='va'>grades_hours_tibble</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>hours_studied</span>, y <span class='op'>=</span> <span class='va'>final_grades</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>colour <span class='op'>=</span> <span class='st'>"blue"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span>title <span class='op'>=</span> <span class='st'>"Grades vs. hours studied for Economics 101 final exam"</span>,
+       x <span class='op'>=</span> <span class='st'>"Number of hours studied"</span>,
+       y <span class='op'>=</span> <span class='st'>"Final exam grade (in %)"</span>,
+       caption <span class='op'>=</span> <span class='st'>"Scatter plot."</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span><span class='op'>(</span><span class='op'>)</span>
+<span class='va'>grades_hours_plot</span>
+</code></pre>
+</div>
+<p><img src="a-lovely-day-8-for-regression-analysis_files/figure-html5/unnamed-chunk-4-1.png" width="624" /></p>
+</div>
+<p>The plot makes it visually clear that there seems to be a positive linear correlation between the grade a student received in the Economics 101 final exam and the number of hours that they studied for the final exam.</p>
+<p>Now, we can fit a simple linear regression model to the data, since we claim that this model will give us the most approximate fit to the data.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Fit data to simple linear regression model.</span>
+<span class='va'>grades_hours_model</span> <span class='op'>&lt;-</span>
+  <span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>final_grades</span> <span class='op'>~</span> <span class='va'>hours_studied</span>, data <span class='op'>=</span> <span class='va'>grades_hours_tibble</span><span class='op'>)</span>
+
+<span class='co'># Get summary of model.</span>
+<span class='fu'><a href='https://rdrr.io/r/base/summary.html'>summary</a></span><span class='op'>(</span><span class='va'>grades_hours_model</span><span class='op'>)</span>
+</code></pre>
+</div>
+<pre><code>
+Call:
+lm(formula = final_grades ~ hours_studied, data = grades_hours_tibble)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-11.5387  -2.0418   0.8055   3.7680   4.8574 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)     45.078      2.113   21.33 3.15e-14 ***
+hours_studied    3.896      0.315   12.37 3.10e-10 ***
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 4.748 on 18 degrees of freedom
+Multiple R-squared:  0.8947,    Adjusted R-squared:  0.8889 
+F-statistic:   153 on 1 and 18 DF,  p-value: 3.095e-10</code></pre>
+</div>
+<p>As we can see from the raw output we obtain by using the <code>summary()</code> function on our model, the estimate for <span class="math inline">\(\hat{\beta}_1\)</span>, which is the estimate for the slope coefficient, is 3.896, which means that for every additional hour of study, the predicted grade will increase by 3.896 percentage points. <span class="math inline">\(\hat{\beta}_1\)</span> also has a p-value of approximately 0. At a significance level of <span class="math inline">\(\alpha\)</span> = 0.05, this means that the number of hours studied is significant in estimating the grade a student will receive on the final exam. We also have the estimate for <span class="math inline">\(\hat{\beta}_0\)</span> (estimate for the intercept), which is 45.077, which means that if a student doesn’t study at all, their grade is estimated as 45.078%. The adjusted R-squared value is 0.889, which means that we can have great confidence in the predictions made by our model, since the closer the adjusted R-squared value is to 1, the more reliable our model is at making predictions.</p>
+<p>In summary, we can rely on our model to make predictions, and we have the coefficient estimates necessary to write an equation for predicting grades based on the number of hours spent studying. That equation is the following:</p>
+<p><span class="math display">\[\hat{y} = 45.078 + 3.896x\]</span></p>
+<p>Let’s test it out! Consider a student that studies for eight hours. What is their predicted grade on the Economics 101 final exam?</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Predict final exam grade for student that studies for eight hours.</span>
+<span class='va'>predicted_grade</span> <span class='op'>&lt;-</span> <span class='fl'>45.078</span> <span class='op'>+</span> <span class='op'>(</span><span class='fl'>3.896</span> <span class='op'>*</span> <span class='fl'>8</span><span class='op'>)</span>
+
+<span class='co'># Print the predicted grade.</span>
+<span class='va'>predicted_grade</span>
+</code></pre>
+</div>
+<pre><code>[1] 76.246</code></pre>
+</div>
+<p>Thus, using our model, we predict that the student will receive a mark of approximately 76.25% on their Economics 101 final exam.</p>
+<p>Now, let’s be very clear. This is a simplified model that does not take into account any other external factors that can affect a student’s performance on a final exam, such as stress, physical and mental health, etc. Thus, just because our model predicts a student will get a mark of 76.25% does not mean this will always be true.</p>
+<p>Finally, we will see how close our model is to our actual data using a visualization.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Create scatter plot with line of best fit (our model).</span>
+<span class='va'>grades_hours_plot_2</span> <span class='op'>&lt;-</span>
+  <span class='va'>grades_hours_tibble</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>hours_studied</span>, y <span class='op'>=</span> <span class='va'>final_grades</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>colour <span class='op'>=</span> <span class='st'>"blue"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span>title <span class='op'>=</span> <span class='st'>"Grades vs. hours studied for Economics 101 final exam"</span>,
+       x <span class='op'>=</span> <span class='st'>"Number of hours studied"</span>,
+       y <span class='op'>=</span> <span class='st'>"Final exam grade (in %)"</span>,
+       caption <span class='op'>=</span> <span class='st'>"Scatter plot with line of best fit."</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_smooth.html'>geom_smooth</a></span><span class='op'>(</span>method <span class='op'>=</span> <span class='va'>lm</span>, se <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span><span class='op'>(</span><span class='op'>)</span>
+<span class='va'>grades_hours_plot_2</span>
+</code></pre>
+</div>
+<p><img src="a-lovely-day-8-for-regression-analysis_files/figure-html5/unnamed-chunk-7-1.png" width="624" /></p>
+</div>
+<p>We can verify visually that our simple linear regression model was a very good fit for our data! Hope you had fun following along, and as with every blog that includes code on my website and any other section where my code has been explicitly provided or linked to, you are free to reproduce it yourself to try it out and even modify the data to try fitting models using different grades and study hours.</p>
+<p>That’s a wrap on today’s post!</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2474,6 +1745,15 @@ function init_posts_list() {
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
