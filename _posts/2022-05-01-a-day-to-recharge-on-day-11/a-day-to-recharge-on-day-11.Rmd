@@ -1,0 +1,22 @@
+---
+title: "A day to recharge on Day 11"
+description: |
+  A Sunday for relaxation and reflection.
+author:
+  - name: Juan David Acosta
+date: 2022-05-01
+categories:
+  - Life
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Sundays for me are all about taking a day to unwind and refresh myself, both physically and mentally, for the week ahead. While this is not always the case, especially when it's crunch time and it seems like I am on 24/7 the entire week, I have been trying to make it a habit. A refreshed mind works much better than a stressed mind. Tasks are much more manageable, and there is more energy to complete them. If you can, do take a day, or even some moments if a full day isn't possible, to sit back and relax, reflecting on the week that was, engaging in whatever form(s) of self-care that you prefer, and then plan for the week ahead. This will hopefully put you in a better state of mind, and will give you the energy to work on your goals or tasks at hand.
+
+That's a wrap on today's post!

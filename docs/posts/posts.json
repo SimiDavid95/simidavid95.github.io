@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-05-01-a-day-to-recharge-on-day-11/",
+    "title": "A day to recharge on Day 11",
+    "description": "A Sunday for relaxation and reflection.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-01",
+    "categories": [
+      "Life"
+    ],
+    "contents": "\r\nSundays for me are all about taking a day to unwind and refresh myself, both physically and mentally, for the week ahead. While this is not always the case, especially when it’s crunch time and it seems like I am on 24/7 the entire week, I have been trying to make it a habit. A refreshed mind works much better than a stressed mind. Tasks are much more manageable, and there is more energy to complete them. If you can, do take a day, or even some moments if a full day isn’t possible, to sit back and relax, reflecting on the week that was, engaging in whatever form(s) of self-care that you prefer, and then plan for the week ahead. This will hopefully put you in a better state of mind, and will give you the energy to work on your goals or tasks at hand.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-01T22:06:12-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-30-not-just-r-part-1-on-day-10/",
     "title": "Not Just R: Part 1 on Day 10",
     "description": "Putting the spotlight on Python.",
