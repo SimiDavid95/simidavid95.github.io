@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-05-02-not-just-r-part-2-on-day-12/",
+    "title": "Not Just R: Part 2 on Day 12",
+    "description": "Creating a data frame using Pandas in Python.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-02",
+    "categories": [
+      "Python"
+    ],
+    "contents": "\r\nWelcome to the second part of my “Not Just R” series of blog posts! These posts will highlight my knowledge of Python in bits and pieces, hence why this is a multi-part series. In today’s entry, we will import the Pandas library in Python, which gives us the tools we need to create a data frame. Let’s do this!\r\nBefore we go ahead and import Pandas, we first need to run the R package called Reticulate, which allows us to run Python in RStudio, where Python has been locally installed on my machine (using Anaconda).\r\n\r\n\r\n# Load in reticulate package in order to run Python in RStudio.\r\nlibrary(reticulate)\r\n\r\n\r\n\r\nNow we should be ready to go with Python! Let’s import Pandas, using the agreed-upon abbreviation pd in order to make our function calls more simple.\r\n\r\n# Import Pandas using pd abbreviation.\r\nimport pandas as pd\r\n\r\nWith Pandas functions now available to us, we can create our data frame. We’ll create a simple one, which stores a person’s name, how many cups of water they drank in one day, and how many hours of sleep they got the night prior. First, we will create a dictionary where the keys will be the column names, and the values will be the column entries.\r\n\r\n# Create the dictionary, with keys being column names, and values being entries.\r\ntable1 = {\"Name\": [\"David\", \"Sam\", \"Marketa\", \"Rana\"],\r\n          \"Cups of Water\": [4, 3, 5, 8],\r\n          \"Hours of Sleep\": [7, 7, 6, 8]}\r\n          \r\n# Convert dictionary into a data frame using Pandas.\r\ndf = pd.DataFrame(table1)\r\n\r\n# Display data frame.\r\ndf\r\n      Name  Cups of Water  Hours of Sleep\r\n0    David              4               7\r\n1      Sam              3               7\r\n2  Marketa              5               6\r\n3     Rana              8               8\r\n\r\nOur data frame has been created, and now we can manipulate it to show us relevant information. For example, say we only want to focus on the number of hours of sleep, regardless of which person they correspond to. We can create a new data frame where we remove all columns except for the “Hours of Sleep” column.\r\n\r\n# Using our original data frame, create a new one with only \"Hours of Sleep\" column.\r\ndf2 = df[[\"Hours of Sleep\"]]\r\n\r\n# Display data frame.\r\ndf2\r\n   Hours of Sleep\r\n0               7\r\n1               7\r\n2               6\r\n3               8\r\n\r\nWe can also create a new data frame where we only keep the rows where the person drank at least 5 cups of water.\r\n\r\n# Select only the rows where the cups of water is at least 5, and create new\r\n# data frame with only the selected rows.\r\ndf3 = df[df[\"Cups of Water\"] >= 5]\r\n\r\n# Display data frame.\r\ndf3\r\n      Name  Cups of Water  Hours of Sleep\r\n2  Marketa              5               6\r\n3     Rana              8               8\r\n\r\nFinally, we will create an array with the unique hours of sleep.\r\n\r\n# Create an array with the unique values for the number of hours of sleep.\r\ndf[\"Hours of Sleep\"].unique()\r\narray([7, 6, 8], dtype=int64)\r\n\r\nAnd that’s it for Part 2 of “Not Just R”! Next time, we’ll take NumPy out for a spin. NumPy is Python’s library for matrix manipulations and is particularly helpful in machine learning applications.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-02T23:24:11-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-01-a-day-to-recharge-on-day-11/",
     "title": "A day to recharge on Day 11",
     "description": "A Sunday for relaxation and reflection.",
