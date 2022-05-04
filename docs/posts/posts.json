@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-05-03-may-showers-on-day-13/",
+    "title": "May showers on Day 13",
+    "description": "A rainy day for organizing the brain.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-03",
+    "categories": [
+      "Life"
+    ],
+    "contents": "\r\nOne of the things I love about spring is the constant rain showers. There’s something calming and soothing about the rain, especially when one can be inside, staring out through a window. I took the chance to have a calm day by dedicating myself to organizing my thoughts and plans for the near-future. This included mapping out my career goals and what I need to do to achieve them. I have also set myself up to continue learning French, taking online courses to boost my skills, and taking up more leisure reading. I am also striving to set aside a part of my day for meditation. Rainy days truly are wonderful days.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-03T22:53:26-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-02-not-just-r-part-2-on-day-12/",
     "title": "Not Just R: Part 2 on Day 12",
     "description": "Creating a data frame using Pandas in Python.",
