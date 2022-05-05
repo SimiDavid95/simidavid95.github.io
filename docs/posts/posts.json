@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2022-05-04-correlation-does-not-equal-causation-on-day-14/",
+    "title": "Correlation does not equal causation on Day 14",
+    "description": "A brief post on the difference between correlation and causation, and why this is important.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-04",
+    "categories": [
+      "Statistics",
+      "Correlation",
+      "Causation"
+    ],
+    "contents": "\r\nOne idea that was drilled into our heads in an observational study course in undergrad was the idea that correlation does not equal causation. And thankfully it was, for the distinction between correlation and causation is incredibly important not just in the field of statistics, but also in everyday life.\r\nI’ll set out a fun scenario for you. Let’s say there’s a fan of the Toronto Maple Leafs that puts on a new necklace before every game as a good luck charm for the team to win. This enthusiastic fan has put on six necklaces, and the Leafs have won all six games that they have played. If we were to plot this data out in a scatter plot, we can see a clear positive correlation occur between the number of necklaces worn and the number of games the Leafs have won up until that point. You know what, let’s plot this out!\r\n\r\n\r\n# Create vector for number of necklaces worn.\r\nnum_necklaces <- c(1:6)\r\n\r\n# Create vector for number of games won by the Leafs up until that point.\r\nnum_games_won <- c(1:6)\r\n\r\n# Create a simple scatter plot, with the x-axis for the number of necklaces\r\n# worn, and the y-axis for the number of games won up until that point.\r\nplot(x = num_necklaces,\r\n     y = num_games_won,\r\n     xlab = \"Number of necklaces worn\",\r\n     ylab = \"Number of games won by Leafs\")\r\ntitle(main = \"Example of correlation\")\r\n\r\n\r\n\r\n\r\nThe graph also makes this correlation very clear. Now, the question is, is there also a causal relationship between the number of necklaces worn and the number of games won by the Leafs up until that point? Let’s think about causality this way: Does the Leafs fan have a direct impact in the team’s success (winning the game) by adding on a new necklace each time the team is set to play? The answer is no, the necklace does not impact the direct outcome of the game, it is just a coincidence that the team wins every time the fan adds on a new necklace. Thus, for this data, we can only say that there is a strong positive correlation between our two variables, but we cannot infer causality between them.\r\nSo remember, correlation does not necessarily imply causation. There will be cases where data is correlated and there is a causal relationship between them, but this is not a general rule.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-05-04-correlation-does-not-equal-causation-on-day-14/correlation-does-not-equal-causation-on-day-14_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2022-05-04T23:18:18-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-03-may-showers-on-day-13/",
     "title": "May showers on Day 13",
     "description": "A rainy day for organizing the brain.",
