@@ -1,0 +1,45 @@
+---
+title: "Reproducibility on Day 16"
+description: |
+  Reproducibility of experiments, observational studies and reports is key.
+author:
+  - name: Juan David Acosta
+date: 2022-05-06
+categories:
+  - Data analysis
+  - Data science
+  - Reproducibility
+  - Discussion
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Reproducibility, as I was taught in undergrad, is making sure your experiments, observational studies and reports can be replicated by other people, either to repeat your processes or to expand upon them. The key points to reproducibility are listed below, and will be expanded upon:
+
+1. Providing the data set used in an experiment, observational study or report.
+
+2. Providing the instructions for cleaning the data set, whether the data set provided is the cleaned data set or the original data set.
+
+3. Providing the Rmd file that was used to knit the PDF report.
+
+### Providing the data set used in an experiment, observational study or report
+
+In order for someone else to be able to replicate your findings, they will need to use the same data that you did. There are several layers and things to be aware of here. First, if the data was created exclusively in an R or Rmd file (i.e. was not obtained externally via a CSV file, for example) then you need to make sure the data can be replicated if it is simulated data. In this case, you would need to set a seed, so that if someone replicates your work, they will get the same data when simulating the data. Second, if the data is obtained externally, then you need to make sure it is data that can be shared publicly. This means looking up the licensing stipulations for the data, whether it's open data or not, or if the data set contains highly sensitive information that can be used to de-anonymize users. It is always best (and ethical) to strive to share publicly available open data, which typically have licenses that permit sharing with attribution to the source. If the data contains sensitive information, that information should either be further anonymized or removed entirely from the data set for privacy considerations. In this case, if you are permitted to share the data set, you should only share the cleaned version of the data set with sensitive information either modified or removed, and then share the steps taken to clean the data so that other people can download the original data set and follow your cleaning instructions in order to obtain your cleaned data set themselves if they so wish.
+
+### Providing the instructions for cleaning the data set, whether the data set provided is the cleaned data set or the original data set
+
+The data you are working with will most likely need to be cleaned, either to remove or modify any sensitive information, rename variables, produce new variables, and so on. Thus, it is crucial that all these steps be documented in detail so that someone else can clean the original data set and obtain the cleaned data set that you are using in your report. The level of detail is important here, because the more detailed your explanation is, the easier it will be for someone else to follow along.
+
+### Providing the Rmd file that was used to knit the PDF report
+
+Providing an Rmd file not only gives someone access to all the code used to conduct the data analysis, but it also allows people to reproduce your report in its entirety. This serves as a verification that your report is fully based on the results obtained from your code.
+
+Reproducibility is key to verifying and expanding upon results from data analyses, so it is important that reproducibility be embraced more and more in the fields of data analysis and data science. It benefits us all.
+
+That's a wrap on today's post!
