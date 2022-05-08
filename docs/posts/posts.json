@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-05-07-not-just-r-part-3-on-day-17/",
+    "title": "Not Just R: Part 3 on Day 17",
+    "description": "NumPy beginnings.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-07",
+    "categories": [
+      "Python"
+    ],
+    "contents": "\r\nIn today’s edition of the Not Just R series of blogs, we will be diving into NumPy (Numerical Python), where we will create arrays and taking some summary measures on them, as well as some vector operations. Let’s go!\r\nFirst things first, we need to tell RStudio that we’ll be writing in Python. To do that, we’ll be loading in the Reticulate R package.\r\n\r\n\r\n# Load in necessary R package.\r\nlibrary(reticulate)\r\n\r\n\r\n\r\nNow that we can write in Python code, let’s import the NumPy library, which will allow us to create and work with arrays. For this blog, we will only work with 1-D arrays (vectors).\r\n\r\n# Import necessary Python library using the common abbreviation np.\r\nimport numpy as np\r\n\r\nExcellent! Let us now create our first two vectors, named a and b. We will use vector a for now, and we will use vector b when we get to vector operations.\r\n\r\n# Create vectors a and b.\r\na = np.array([1, 2, 4])\r\nb = np.array([2, 5, 6])\r\n\r\nWith our vectors created, let’s practice using some summary measures such as the mean and standard deviation.\r\n\r\n# Calculate the mean of vector a.\r\nmean_a = np.mean(a)\r\nmean_a\r\n\r\n# Calculate the standard deviation of vector a.\r\n2.3333333333333335\r\nstdev_a = np.std(a)\r\nstdev_a\r\n1.247219128924647\r\n\r\nNow, we’ll use vectors a and b to perform vector addition, scalar multiplication, and take the dot product of the two vectors.\r\n\r\n# Vector addition of a and b.\r\nc = np.add(a, b)\r\nc\r\n\r\n# Scalar multiplication of b by 2.\r\narray([ 3,  7, 10])\r\nd = 2 * b\r\nd\r\n\r\n# Dot product of a and b.\r\narray([ 4, 10, 12])\r\ne = np.dot(a, b)\r\ne\r\n36\r\n\r\nFinally, we will create a vector [1, 2, 3, 4, 5, 6] that we will use to create a vector with only the even numbers.\r\n\r\n# Create vector [1, 2, 3, 4, 5, 6]\r\narr = np.array([1, 2, 3, 4, 5, 6])\r\n\r\n# Create a new vector, which will have only the even numbers from arr.\r\neven_arr = arr[1::2]\r\neven_arr\r\narray([2, 4, 6])\r\n\r\nThis was just a small taste of what is possible with NumPy, a truly essential Python library for data analysis and data science.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-07T23:47:33-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-06-reproducibility-on-day-16/",
     "title": "Reproducibility on Day 16",
     "description": "Reproducibility of experiments, observational studies and reports is key.",
