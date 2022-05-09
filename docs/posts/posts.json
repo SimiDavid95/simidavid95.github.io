@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2022-05-08-mothers-day-on-day-18/",
+    "title": "Mother's Day on Day 18",
+    "description": "A special Mother's Day post.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-08",
+    "categories": [
+      "Discussion",
+      "Life"
+    ],
+    "contents": "\r\nAs night falls on this Mother’s Day, I hope that all the wonderful, powerful, inspirational, caring, and loving moms out there had an incredible day, inundated with calls or messages, brunches and dinners, or however else they were celebrated on this special day. To those who may not have a close connection to their mother for a myriad of reasons, I wish you comfort and strength on this day. And to those whose mothers are no longer among us, may you continue to cherish the memories you made with them, and may their teachings and love continue to burn bright in your hearts.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-08T22:31:45-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-07-not-just-r-part-3-on-day-17/",
     "title": "Not Just R: Part 3 on Day 17",
     "description": "NumPy beginnings.",

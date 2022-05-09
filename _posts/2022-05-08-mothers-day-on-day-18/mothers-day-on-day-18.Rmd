@@ -1,0 +1,23 @@
+---
+title: "Mother's Day on Day 18"
+description: |
+  A special Mother's Day post.
+author:
+  - name: Juan David Acosta
+date: 2022-05-08
+categories:
+  - Discussion
+  - Life
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+As night falls on this Mother's Day, I hope that all the wonderful, powerful, inspirational, caring, and loving moms out there had an incredible day, inundated with calls or messages, brunches and dinners, or however else they were celebrated on this special day. To those who may not have a close connection to their mother for a myriad of reasons, I wish you comfort and strength on this day. And to those whose mothers are no longer among us, may you continue to cherish the memories you made with them, and may their teachings and love continue to burn bright in your hearts.
+
+That's a wrap on today's post!
