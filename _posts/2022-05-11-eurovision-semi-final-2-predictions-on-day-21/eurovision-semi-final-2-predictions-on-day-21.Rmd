@@ -1,0 +1,37 @@
+---
+title: "Eurovision Semi-final 2 predictions on Day 21"
+description: |
+  My Top 10 for the second semi-final of Eurovision 2022 in Turin, Italy.
+author:
+  - name: Juan David Acosta
+date: 2022-05-11
+categories:
+  - Eurovision
+  - Discussion
+  - Life
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Tomorrow is Thursday, which means it's almost time for the second semi-final of Eurovision 2022! Thus, the following are my Top 10 songs that I predict will move on to the final on Saturday. These predictions were made based on both listening to the recorded versions of the songs, as well as seeing some snippets from rehearsals and the jury shows. My Top 10 for the second semi-final are:
+
+1. Sweden
+2. Cyprus
+3. Belgium
+4. Serbia
+5. Czech Republic
+6. Finland
+7. Ireland
+8. North Macedonia
+9. Australia
+10. Poland
+
+Sweden and Cyprus are two of the acts that I would be crushed if they don't move on to the final, as they are my favourites to win the contest. So many great entries in this semi, from the raw emotion of Sweden to the dulcet voice of Cyprus to the important message around health benefits for gig workers of Serbia to the powerful vocals of Australia. This will be a hard-fought semi, and I am bracing for potential heartbreak if this is anything like the first semi, where three of my Top 10, including Austria which was one of my absolute favourites, failed to qualify for the final. In any case, this is shaping up to be an emotional semi, with a duet by Laura Pausini and Mika that I am awaiting with anticipation. Only one more sleep!
+
+That's a wrap on today's post!
