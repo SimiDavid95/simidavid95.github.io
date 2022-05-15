@@ -1,0 +1,24 @@
+---
+title: "Eurovision 2022 Grand Final After-Post on Day 24"
+description: |
+  A perfect wrap-up to Eurovision Week.
+author:
+  - name: Juan David Acosta
+date: 2022-05-14
+categories:
+  - Eurovision
+  - Life
+  - Discussion
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A week can go by very fast when you're having fun, and this week was no exception. Today marked the culmination of the Eurovision Song Contest 2022 in Turin, Italy. It was a high-caliber affair filled with Italian sceneries, medleys, Eurovision history, and the amazing acts themselves. All the performers poured their hearts out on the grand stage, and this meant there was never a dull moment throughout the show. The United Kingdom got an incredible result, but alas, it was only enough for second place. The winner of this year's contest was Ukraine! Kalush performed an incredible song mixed with a fusion of ballad and Ukrainian rap, and it absolutely resonated with the public, where it won an absolutely huge number of points that cemented Ukraine at the top of the scoreboard. Well done, Ukraine! Now that Eurovision is over for the year, I am entering that time where I have the post-Eurovision blues. Eurovision is an event that I have invested so much time in, from following the Swedish national selection, to staying on top of all the entries and giving them several listens, to checking out the music videos, to watching events related to Eurovision, to watching the contest itself. Thankfully though, it won't be long before Europe (and Australia) begin to prepare once more for this festival of European unity and creativity and, of course, music. Congrats to Italy for hosting an amazing contest! Here's looking forward to Eurovision 2023!
+
+That's a wrap on today's post!
