@@ -45,11 +45,13 @@ Major in Statistics:
 * Probability and sampling design
 * Statistical distributions
 * Various types of regression (linear, logistic, etc.)
+* Time series analysis
 * Data analysis
 * Observational studies
 * Experimental design
 * Ethical considerations and reproducibility
 * Statistical programming using R
+* Data analytic consulting
 
 Minor in Mathematics:
 
