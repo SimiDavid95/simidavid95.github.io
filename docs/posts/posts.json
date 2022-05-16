@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2022-05-15-summer-is-finally-here-on-day-25/",
+    "title": "Summer is finally here on Day 25",
+    "description": "A day out in the sun, planning for the week ahead.",
+    "author": [
+      {
+        "name": "Juan David Acosta",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-15",
+    "categories": [
+      "Life",
+      "Website updates"
+    ],
+    "contents": "\r\nToday was a gorgeous day in Toronto, with sizzling temperatures that made for perfect barbecue conditions. I enjoyed the day with family, visiting my niece and nephew and having a barbecue in their backyard. It truly feels like summer has finally arrived.\r\nIn website news, this week will see me focusing on adding another school project to the website. This one is my final project from my time series analysis course, where we had to write a report based on time series data gathered from an internet source. Adding this project to my GitHub and to the website will require small modifications to remove any potentially sensitive information. I am also hoping to complete another Tidy Tuesday challenge after I’ve been on hiatus for a few weeks.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-15T21:40:44-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-14-eurovision-2022-grand-final-after-post-on-day-24/",
     "title": "Eurovision 2022 Grand Final After-Post on Day 24",
     "description": "A perfect wrap-up to Eurovision Week.",
