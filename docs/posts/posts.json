@@ -21,26 +21,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-05-15-summer-is-finally-here-on-day-25/",
-    "title": "Summer is finally here on Day 25",
-    "description": "A day out in the sun, planning for the week ahead.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-05-15",
-    "categories": [
-      "Life",
-      "Website updates"
-    ],
-    "contents": "\r\nToday was a gorgeous day in Toronto, with sizzling temperatures that made for perfect barbecue conditions. I enjoyed the day with family, visiting my niece and nephew and having a barbecue in their backyard. It truly feels like summer has finally arrived.\r\nIn website news, this week will see me focusing on adding another school project to the website. This one is my final project from my time series analysis course, where we had to write a report based on time series data gathered from an internet source. Adding this project to my GitHub and to the website will require small modifications to remove any potentially sensitive information. I am also hoping to complete another Tidy Tuesday challenge after I’ve been on hiatus for a few weeks.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-05-15T21:40:44-04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2022-05-14-eurovision-2022-grand-final-after-post-on-day-24/",
     "title": "Eurovision 2022 Grand Final After-Post on Day 24",
     "description": "A perfect wrap-up to Eurovision Week.",
@@ -167,26 +147,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-05-08-mothers-day-on-day-18/",
-    "title": "Mother's Day on Day 18",
-    "description": "A special Mother's Day post.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-05-08",
-    "categories": [
-      "Discussion",
-      "Life"
-    ],
-    "contents": "\r\nAs night falls on this Mother’s Day, I hope that all the wonderful, powerful, inspirational, caring, and loving moms out there had an incredible day, inundated with calls or messages, brunches and dinners, or however else they were celebrated on this special day. To those who may not have a close connection to their mother for a myriad of reasons, I wish you comfort and strength on this day. And to those whose mothers are no longer among us, may you continue to cherish the memories you made with them, and may their teachings and love continue to burn bright in your hearts.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-05-08T22:31:45-04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2022-05-07-not-just-r-part-3-on-day-17/",
     "title": "Not Just R: Part 3 on Day 17",
     "description": "NumPy beginnings.",
@@ -270,25 +230,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-05-03-may-showers-on-day-13/",
-    "title": "May showers on Day 13",
-    "description": "A rainy day for organizing the brain.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-05-03",
-    "categories": [
-      "Life"
-    ],
-    "contents": "\r\nOne of the things I love about spring is the constant rain showers. There’s something calming and soothing about the rain, especially when one can be inside, staring out through a window. I took the chance to have a calm day by dedicating myself to organizing my thoughts and plans for the near-future. This included mapping out my career goals and what I need to do to achieve them. I have also set myself up to continue learning French, taking online courses to boost my skills, and taking up more leisure reading. I am also striving to set aside a part of my day for meditation. Rainy days truly are wonderful days.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-05-03T22:53:26-04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2022-05-02-not-just-r-part-2-on-day-12/",
     "title": "Not Just R: Part 2 on Day 12",
     "description": "Creating a data frame using Pandas in Python.",
@@ -308,25 +249,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-05-01-a-day-to-recharge-on-day-11/",
-    "title": "A day to recharge on Day 11",
-    "description": "A Sunday for relaxation and reflection.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-05-01",
-    "categories": [
-      "Life"
-    ],
-    "contents": "\r\nSundays for me are all about taking a day to unwind and refresh myself, both physically and mentally, for the week ahead. While this is not always the case, especially when it’s crunch time and it seems like I am on 24/7 the entire week, I have been trying to make it a habit. A refreshed mind works much better than a stressed mind. Tasks are much more manageable, and there is more energy to complete them. If you can, do take a day, or even some moments if a full day isn’t possible, to sit back and relax, reflecting on the week that was, engaging in whatever form(s) of self-care that you prefer, and then plan for the week ahead. This will hopefully put you in a better state of mind, and will give you the energy to work on your goals or tasks at hand.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-05-01T22:06:12-04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2022-04-30-not-just-r-part-1-on-day-10/",
     "title": "Not Just R: Part 1 on Day 10",
     "description": "Putting the spotlight on Python.",
@@ -343,25 +265,6 @@
     "contents": "\r\nFrom my undergrad coursework, as well as through some online courses, I have worked at building up my R proficiency, to the point where I am very comfortable using it as my go-to programming language for analysis and basic programming. Virtually all the assignments I did for my undergrad courses that are shared on this website were written using R code.\r\nHowever, R is not the only programming language I know. I have also been exposed to Python programming, both through some undergrad courses and through online courses. But, since I tend to conduct analyses using R, I don’t get to practice using my Python skills as much. I am hoping to change that through both this blog and this website as a whole. Like I am doing with some blog posts where I set out a coding example using R, I would also like to do the same using Python. And that is made easier by the fact that Python code can be written and executed using RStudio, even alongside R code if you wish. I am also planning on completing some personal projects using Python, but that is still in the planning stages.\r\nBasically, even though R is the standard when it comes to programming languages with a statistical analysis focus, Python has also shone in the data science world, and it is vital to continue to develop proficiency in both programming languages. So keep on the lookout for an upcoming Part 2 where I introduce a Python coding example!\r\nBut, as a little teaser, and in homage to what most, if not all, Python beginners experience when starting to learn the language, we will print out the phrase “Hello World!”\r\nIn order to run Python code in RStudio, aside from already having a local installation of Python on your machine (I use Anaconda myself), you need the Reticulate R package. If you don’t have it already installed, please do so before attempting to run the following code.\r\n\r\n\r\nlibrary(reticulate)\r\n\r\n\r\n\r\nNow, we can write Python code as if we were in any other Python IDE! Let’s print “Hello World!”\r\n\r\nprint(\"Hello World!\")\r\nHello World!\r\n\r\nWe did it! That’s just a tiny taste of the Python code we’ll go through in future installments of “Not Just R”. Next time we’ll do some calculations, and maybe even explore Python libraries, which are equivalent to R packages in the sense that they extend the capabilities of base Python, sometimes for more specialized topics.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2022-04-30T20:56:40-04:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/2022-04-29-a-sunny-day-9-for-website-updates/",
-    "title": "A sunny Day 9 for website updates",
-    "description": "Building out the \"Beyond the Data\" section.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-04-29",
-    "categories": [
-      "Website updates"
-    ],
-    "contents": "\r\n (Photo by Lisa Fotios: https://www.pexels.com/photo/hand-under-sun-and-tree-1198109/)\r\nThe sunshine has finally come our way here in Toronto, and along with it are more updates to the website. The “Beyond the Data” section has been filled out, and images should be added soon to give the page a bit more flair. It’s been a fun section to work on, because I get to highlight parts of my life that may not be apparent from a resume. Completing this section also means that all the major sections of the website now have content! This website will continually be updated, with new blog and Tidy Tuesday entries, educational projects that I still have to modify to publicly share them, other projects (including one currently in the works!), and updates to my resume as they come.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": "posts/2022-04-29-a-sunny-day-9-for-website-updates/pexels-lisa-fotios-1198109.jpg",
-    "last_modified": "2022-04-29T15:57:03-04:00",
     "input_file": {}
   },
   {
@@ -407,64 +310,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-04-26-day-6-website-updates/",
-    "title": "Day 6 website updates on 4.26",
-    "description": "New content in Educational Projects + Tidy Tuesday post delayed.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-04-26",
-    "categories": [
-      "Website updates"
-    ],
-    "contents": "\r\nWow, Day 6 already! Almost at the end of the first week of the website (and this blog) going live, and it does kind of feel like a blur with all the updates that have been going on. Another project has been added to the Educational Projects section of the website, and that section is starting to take shape. More projects are forthcoming, once I adapt them for public consumption and reproducibility (making sure there isn’t any sensitive data that’s being shared, for example). Other sections such as “Beyond the Data” should hopefully be updated by the time the weekend rolls around, which is ultimately my timeline for completing all the major sections of the website. Of course after that the website will continue to be updated with new content, especially with Tidy Tuesday weekly submissions. And that brings me to the final part of this post, which is that there is a delay in my Tidy Tuesday post for this week, so I should hopefully be posting it on Wednesday through my personal Twitter, and I’ll post it here as well.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-04-29T16:01:57-04:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/2022-04-25-day-5-on-425/",
-    "title": "Day 5 on 4.25",
-    "description": "Website updates on a rainy day.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-04-25",
-    "categories": [
-      "Website updates"
-    ],
-    "contents": "\r\n (Screenshot by Juan David Acosta)\r\nA rainy day is such a delight to me. Seeing the raindrops fall from my study room window is a peaceful sensation. Perfect for a day of website updates! The educational projects section is beginning to take shape, and I’m making some organizational changes on my GitHub as a result. Since I was taught to put a major emphasis on reproducibility, I am making sure that the projects that I am posting here (and on my GitHub for that matter) have both the PDF report and the code file, along with any data that was used. While the data that I have accessed for my projects is open data (unless I used my own data), I will only be uploading the cleaned data to also ensure that no sensitive information is uploaded, and so this may require some modifications in the code files before they too are updated. This should all be hopefully completed in the coming days.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": "posts/2022-04-25-day-5-on-425/day-5-screenshot-001.jpg",
-    "last_modified": "2022-04-29T16:02:18-04:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/2022-04-24-a-day-4-rest/",
-    "title": "A Day 4 rest",
-    "description": "Taking a day to recharge.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-04-24",
-    "categories": [
-      "Life",
-      "Website updates"
-    ],
-    "contents": "\r\n (Photo by Lisa Fotios: https://www.pexels.com/photo/person-laying-on-sofa-while-reading-book-1471991/)\r\nFor Day 4 of the blog, since I took the day off from doing major updates to the website, I thought I would simply talk about my day. With beautiful weather finally arriving in Toronto today, I thought it best to take this day as one to recharge. I took in the sunlight outdoors, ate a barbecue, and shared in some de-stressing family time. Recharging truly does wonders for my mental state. It allows me time to pause and reflect on the events that have occurred up until that point, and the goals and dreams that I wish to pursue afterwards. It takes me away from the hustle and bustle, if only for a little while.\r\nNow that I am recharged, I am ready to take on the week ahead, and the various projects and goals that I have on deck. One of those projects is the website, which I plan to update extensively over the coming week, including filling in the remaining blank sections. In the words of a lovable sponge that lives in a pineapple under the sea, “I’m ready!”\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
-    "preview": "posts/2022-04-24-a-day-4-rest/pexels-lisa-fotios-1471991.jpg",
-    "last_modified": "2022-04-29T16:02:38-04:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2022-04-23-day-3-plot-for-me-plot-for-thee/",
     "title": "Plot for me, plot for thee on Day 3",
     "description": "Calculating summary statistics and creating a bar plot from my Wordle statistics.",
@@ -484,27 +329,6 @@
     "contents": "\r\nWordle is a game that has taken the world by storm, especially since it has offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for my Day 3 blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let’s do this!\r\nFirst, an important step is to always initialize the packages we will need for the task at hand. Since we will concern ourselves with crafting aesthetically-pleasing graphs, we will deploy the power of the Tidyverse to use the ggplot2 graphing package. Since I will be entering the data manually, there is no need for a seed to ensure reproducibility.\r\n\r\n\r\n# Load in necessary library.\r\nlibrary(tidyverse)\r\n\r\n\r\n\r\nSecond, let’s create our data. Wordle tracks statistics such as the number of games played and the guess distribution (i.e. how many games were won with one guess, two guesses, …, six guesses). These are the data that we need for our summary statistics and plot, so let’s manually input the number of games won (which in this case is the same as the number of games played) and the guess distribution.\r\n\r\n\r\n# Variable with number of games won, which is also the number of games played.\r\ngames_won <- 88\r\n\r\n# Create new variable called \"guesses\" that will store the Wordle wins based on how many guesses \r\n# it took to guess the correct word, with numerical values ranging from 2 to 6.\r\nguesses <- c(2, rep(3, 19), rep(4, 36), rep(5, 25), rep(6, 7))\r\n\r\n\r\n\r\nThird, let’s run some summary statistics on our Wordle data, such as the mean number of guesses it took to correctly guess the word of the day, the variance and standard deviation for the number of guesses, and the percentage for each of the number of guesses out of the total number of games won.\r\n\r\n\r\n# Preliminary work that groups the number of guesses in a tibble, and counts \r\n# the number of occurrences for each number of guesses.\r\ngrouped_guesses_table <- \r\n  tibble(one_guess = 0,\r\n         two_guesses = sum(guesses == 2),\r\n         three_guesses = sum(guesses == 3),\r\n         four_guesses = sum(guesses == 4),\r\n         five_guesses = sum(guesses == 5),\r\n         six_guesses = sum(guesses == 6))\r\n\r\n## Represent as kable.\r\ngrouped_guesses_kable <- \r\n  knitr::kable(grouped_guesses_table,\r\n               col.names = c(\"One guess\", \"Two guesses\", \"Three guesses\",\r\n                             \"Four guesses\", \"Five guesses\", \"Six guesses\"),\r\n               caption = \"Sum for each number of guesses.\")\r\ngrouped_guesses_kable\r\n\r\n\r\nTable 1: Sum for each number of guesses.\r\nOne guess\r\nTwo guesses\r\nThree guesses\r\nFour guesses\r\nFive guesses\r\nSix guesses\r\n0\r\n1\r\n19\r\n36\r\n25\r\n7\r\n\r\n# Percentages for each of the number of guesses out of the total number of games won.\r\npercentage_guesses_table <- \r\n  tibble(one_guess = 0,\r\n         two_guesses = (sum(guesses == 2) / games_won) * 100,\r\n         three_guesses = (sum(guesses == 3) / games_won) * 100,\r\n         four_guesses = (sum(guesses == 4) / games_won) * 100,\r\n         five_guesses = (sum(guesses == 5) / games_won) * 100,\r\n         six_guesses = (sum(guesses == 6) / games_won) * 100)\r\n\r\n## Round percentages to two decimal points in percentage_guesses_table.\r\npercentage_guesses_table <- round(percentage_guesses_table, 2)\r\n\r\n## Represent as kable.\r\npercentage_guesses_kable <- \r\n  knitr::kable(percentage_guesses_table,\r\n               col.names = c(\"One guess\", \"Two guesses\", \"Three guesses\",\r\n                             \"Four guesses\", \"Five guesses\", \"Six guesses\"),\r\n               caption = \"Percentage (%) of each number of guesses out of the total number of guesses.\")\r\npercentage_guesses_kable\r\n\r\n\r\nTable 1: Percentage (%) of each number of guesses out of the total number of guesses.\r\nOne guess\r\nTwo guesses\r\nThree guesses\r\nFour guesses\r\nFive guesses\r\nSix guesses\r\n0\r\n1.14\r\n21.59\r\n40.91\r\n28.41\r\n7.95\r\n\r\n# Calculate mean for the number of guesses, and round to two decimal places.\r\nmean_guesses <- round(mean(guesses), 2)\r\n\r\n# Calculate variance for the number of guesses, and round to two decimal places.\r\nvar_guesses <- round(var(guesses), 2)\r\n\r\n# Calculate standard deviation for the number of guesses, and round to two decimal places.\r\nsd_guesses <- round(sd(guesses), 2)\r\n\r\n# Place the mean, variance, and standard deviation in a tibble.\r\nmean_var_sd_guesses <- \r\n  tibble(mean_guesses,\r\n         var_guesses,\r\n         sd_guesses)\r\n\r\n## Represent as kable.\r\nmean_var_sd_kable <- \r\n  knitr::kable(mean_var_sd_guesses,\r\n               col.names = c(\"Mean\", \"Variance\", \"Standard deviation\"),\r\n               caption = \"Mean, variance and standard deviation for number of guesses.\")\r\nmean_var_sd_kable\r\n\r\n\r\nTable 1: Mean, variance and standard deviation for number of guesses.\r\nMean\r\nVariance\r\nStandard deviation\r\n4.2\r\n0.83\r\n0.91\r\n\r\nFourth, it’s time for the graph! We’ll create a bar graph, similar to the one that Wordle provides.\r\n\r\n\r\n# Preliminary work to make a one-column tibble from the original guesses vector.\r\nguesses_table <- tibble(guesses)\r\n\r\n# Create bar chart.\r\nbar_guesses <- guesses_table %>%\r\n  ggplot(aes(x = factor(guesses))) +\r\n  geom_bar(fill = \"#66CC33\") +\r\n  labs(title = \"Wordle Guess Distribution\",\r\n       caption = \"Created by Juan David Acosta using personal Wordle statistics.\") +\r\n  xlab(\"Number of guesses to correctly guess word\") +\r\n  ylab(\"Count\") +\r\n  theme_minimal()\r\nbar_guesses\r\n\r\n\r\n\r\n\r\nAnd there we have it! You can recreate your own Wordle guess distribution bar graph using the code above, simply updating some of the code with your own data.\r\nThat’s a wrap on today’s post!\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-04-23-day-3-plot-for-me-plot-for-thee/day-3-plot-for-me-plot-for-thee_files/figure-html5/unnamed-chunk-4-1.png",
     "last_modified": "2022-04-24T21:33:54-04:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/2022-04-22-day-2-on-422/",
-    "title": "Day 2 on 4.22",
-    "description": "An Earth Day post, and more.",
-    "author": [
-      {
-        "name": "Juan David Acosta",
-        "url": {}
-      }
-    ],
-    "date": "2022-04-22",
-    "categories": [
-      "Opinion",
-      "Environment",
-      "Website updates"
-    ],
-    "contents": "\r\n (Photo by Akil Mazumder: https://www.pexels.com/photo/person-holding-a-green-plant-1072824/)\r\nToday is Earth Day. A day when we reflect upon the state of our planet. With the climate crisis we are facing today, it can seem that the future is bleak, especially for the young generations that will face the brunt force of a warmer planet. However, I would like to highlight the positives, the reasons to have hope that, while we may not be able to prevent all the consequences of climate change, we can at least unite together to mitigate the most harmful outcomes. We have become more conscious of our impact on the well-being of Earth’s diverse biosphere, and are taking steps to help in any way we can to reduce that impact, whether it be buying an electric vehicle, shopping with reusable bags, planting trees, recycling, etc. It is not futile. It is not too late. Through hope and action, we can help preserve the only planet that we call home, Earth.\r\nPivoting from Earth Day, I have decided to continue posting at least one blog a day, every day! There are no guarantees for this, but I am striving to keep this up as not only an exercise in writing, but also in communicating my thoughts and ideas to the world. Thus, it will be an integral part of this website. And speaking of the website, major progress has been made in building out the rest of the website’s sections. Of course, this will be a continuing endeavour as time progresses.\r\nThat’s a wrap for this post!\r\n\r\n\r\n\r\n",
-    "preview": "posts/2022-04-22-day-2-on-422/pexels-akil-mazumder-1072824.jpg",
-    "last_modified": "2022-04-29T16:03:08-04:00",
     "input_file": {}
   },
   {
