@@ -87,7 +87,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Plot for me, plot for thee on Day 3</title>
+  <title>Plot for me, plot for thee</title>
 
   <meta property="description" itemprop="description" content="Calculating summary statistics and creating a bar plot from my Wordle statistics."/>
 
@@ -98,21 +98,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Juan David Acosta"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Plot for me, plot for thee on Day 3"/>
+  <meta property="og:title" content="Plot for me, plot for thee"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Calculating summary statistics and creating a bar plot from my Wordle statistics."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Plot for me, plot for thee on Day 3"/>
+  <meta property="twitter:title" content="Plot for me, plot for thee"/>
   <meta property="twitter:description" content="Calculating summary statistics and creating a bar plot from my Wordle statistics."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Plot for me, plot for thee on Day 3"]},{"type":"character","attributes":{},"value":["Calculating summary statistics and creating a bar plot from my Wordle statistics.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Juan David Acosta"]}]}]},{"type":"character","attributes":{},"value":["2022-04-23"]},{"type":"character","attributes":{},"value":["Data analysis","Statistics","Data visualization","Wordle"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["Plot for me, plot for thee"]},{"type":"character","attributes":{},"value":["Calculating summary statistics and creating a bar plot from my Wordle statistics.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Juan David Acosta"]}]}]},{"type":"character","attributes":{},"value":["2022-04-23"]},{"type":"character","attributes":{},"value":["Data analysis","Statistics","Data visualization","Wordle"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1459,7 +1459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Plot for me, plot for thee on Day 3","description":"Calculating summary statistics and creating a bar plot from my Wordle statistics.","authors":[{"author":"Juan David Acosta","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-04-23T00:00:00.000-04:00","citationText":"Acosta, 2022"}
+{"title":"Plot for me, plot for thee","description":"Calculating summary statistics and creating a bar plot from my Wordle statistics.","authors":[{"author":"Juan David Acosta","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-04-23T00:00:00.000-04:00","citationText":"Acosta, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1469,7 +1469,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Plot for me, plot for thee on Day 3</h1>
+<h1>Plot for me, plot for thee</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
 <div class="dt=tag">Data analysis</div>
@@ -1488,7 +1488,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a> is a game that has taken the world by storm, especially since it has offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for my Day 3 blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let’s do this!</p>
+<p><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a> is a game that has taken the world by storm, especially since it has offered amusement and social connection in times of pandemic. The cryptic tiles and fractions inundated countless Twitter feeds. Thus, for this blog post, I thought it would be fun to derive some summary statistics for my Wordle wins and recreate the bar plot that Wordle provides, and for even extra fun, I will show my process throughout by posting my R code! Let’s do this!</p>
 <p>First, an important step is to always initialize the packages we will need for the task at hand. Since we will concern ourselves with crafting aesthetically-pleasing graphs, we will deploy the power of the <a href="https://www.tidyverse.org/">Tidyverse</a> to use the <a href="https://ggplot2.tidyverse.org/">ggplot2</a> graphing package. Since I will be entering the data manually, there is no need for a seed to ensure reproducibility.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
