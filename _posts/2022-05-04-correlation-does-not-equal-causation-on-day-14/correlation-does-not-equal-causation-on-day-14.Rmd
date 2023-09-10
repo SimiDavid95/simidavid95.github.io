@@ -1,5 +1,5 @@
 ---
-title: "Correlation does not equal causation on Day 14"
+title: "Correlation does not equal causation!"
 description: |
   A brief post on the difference between correlation and causation, and why this is important.
 author:

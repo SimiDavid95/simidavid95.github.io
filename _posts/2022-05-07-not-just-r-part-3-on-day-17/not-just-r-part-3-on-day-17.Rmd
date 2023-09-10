@@ -1,5 +1,5 @@
 ---
-title: "Not Just R: Part 3 on Day 17"
+title: "Not Just R: Part 3"
 description: |
   NumPy beginnings.
 author:

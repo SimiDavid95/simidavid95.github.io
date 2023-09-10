@@ -1,5 +1,5 @@
 ---
-title: "A lovely Day 8 for regression analysis"
+title: "A lovely day for regression analysis"
 description: |
   Practicing regression analysis using fictional data.
 author:

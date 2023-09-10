@@ -1,5 +1,5 @@
 ---
-title: "Reproducibility on Day 16"
+title: "Reproducibility and its importance"
 description: |
   Reproducibility of experiments, observational studies and reports is key.
 author:

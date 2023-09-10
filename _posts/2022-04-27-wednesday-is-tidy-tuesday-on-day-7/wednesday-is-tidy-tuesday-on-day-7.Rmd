@@ -1,5 +1,5 @@
 ---
-title: "Wednesday is Tidy Tuesday on Day 7"
+title: "Wednesday is Tidy Tuesday!"
 description: |
   My Tidy Tuesday contribution has been posted!
 author:

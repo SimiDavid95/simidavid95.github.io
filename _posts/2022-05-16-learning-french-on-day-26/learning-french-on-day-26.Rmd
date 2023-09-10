@@ -1,5 +1,5 @@
 ---
-title: "Learning French on Day 26"
+title: "Learning French!"
 description: |
   I am working on building up my French from a classroom level to an intermediate level.
 author:

@@ -1,5 +1,5 @@
 ---
-title: "Not Just R: Part 1 on Day 10"
+title: "Not Just R: Part 1"
 description: |
   Putting the spotlight on Python.
 author:
