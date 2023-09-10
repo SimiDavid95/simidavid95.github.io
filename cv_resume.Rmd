@@ -14,9 +14,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
-I am a reliable, energetic, and resourceful individual with more than a year of diverse work experience, including six months of administrative experience with an emphasis on data management, eight months of online moderation experience working in a virtual setting, and a month-long virtual internship putting into practice my data analytics and research skills. These various experiences, along with the analytic and critical thinking skills I have acquired in my undergraduate education, allow me to adapt quickly to any new job or task.
+I am a reliable, energetic, and resourceful individual with more than a year of professional data analysis experience, including various years of practicing data analysis, statistical, and mathematical concepts during my undergraduate studies. I am quick to learn new topics, and have a meticulous attention to detail. Through my experiences, I have developed a data-driven way of thinking that allows me to effectively wrangle, analyze and visualize data, gathering valuable data-driven insights, and communicating those results effectively so that relevant stakeholders may act upon them.
 
 ## Work Experience
+
+**Heliolytics Inc.** - *Toronto, ON*\
+**Data Analyst and Report Specialist 2** - July 2022 to August 2023
+
+This was my first full-time professional role. Starting as a junior analyst (Data Analyst and Report Specialist), there were several tasks I could be found working on from day to day. I onboarded client assets into the company's internal systems to prepare for analysis. I performed analysis on the infrared and visual imagery captured from solar power generation sites, translating performance issues observed on site into fault data inputted into the company's proprietary internal analysis systems, as well as noting down key trends on site for further investigation from the client. I generated reports and other deliverables from the insights extracted from the data analysis so that clients can perform remediation on their sites, optimizing their performance. When I was promoted to the senior analyst position (Data Analyst 2), I was also tasked with reviewing the analyses of junior analysts to ensure marking rules and strategies were followed.
+
+This role also gave me valuable experience in project management. I acted as a project manager by managing several client portfolios totaling approximately 240MWdc of energy output and ensuring their sites flowed smoothly through the analysis pipeline.
+
+Finally, I was also the owner of several initiatives on the analysis team, including: updating a repository of analysis tips and tricks; a co-authored guide that laid out best practices for project managers that handled client portfolios of multiple sites; an automated system implemented in our project management software that moved sites from one section to another based on their status change, considerably reducing the time it would take to do this manually and allowed project managers to keep better track of their sites.
 
 **Insurtech Advisors** - *Toronto, ON*\
 **Data Analytics and Reporting Intern** - March 2022
@@ -38,7 +47,7 @@ I was tasked with assisting in the running of the program office of the Departme
 ### Undergraduate
 
 **University of Toronto** - *Toronto, ON*\
-**Bachelor of Science** - June 2022
+**Honours Bachelor of Science** - June 2022
 
 Major in Statistics:
 
@@ -67,7 +76,7 @@ Minor in History and Philosophy of Science and Technology:
 ### Professional Certificates
 
 **IBM / Coursera** - *Toronto, ON*\
-**IBM Data Science Professional Certificate** - Expected 2022
+**IBM Data Science Professional Certificate** - Expected 2023
 
 ## Professional Skills
 
