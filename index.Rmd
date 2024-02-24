@@ -17,14 +17,12 @@ site: distill::distill_website
  
 ## About Me
 
-Hello and welcome to my website! My name is Juan David Acosta, though you can call me either Juan or David, whichever name you prefer. My preferred pronouns are he/him/his. The purpose of this website is to showcase both my professional and personal sides. You will be able to peruse a more detailed version of my resume, read through data-driven reports that were part of my undergraduate coursework, and see my personal hobbies and topics beyond data and statistics that I love. A brief summary follows below:
+Hello and welcome to my website! My name is Juan David Acosta, though you can call me either Juan or David or Juan David, whichever one you prefer. My preferred pronouns are he/him/his. The purpose of this website is to showcase my educational and professional experience, my portfolio of data-oriented projects, a blog of my discussions in the data space, and an overview of my hobbies and interests.
 
-I am a Colombian-Canadian currently living in the Greater Toronto Area, where I have completed my undergraduate studies at the University of Toronto and received my Honours Bachelor of Science degree in Statistics, with minors in both Mathematics and the History and Philosophy of Science and Technology, in June 2022.
+I currently live in the Greater Toronto Area, where I completed my undergraduate studies at the University of Toronto and received my Honours Bachelor of Science degree in Statistics, with minors in both Mathematics and the History and Philosophy of Science and Technology, in June 2022.
 
-I have over a year of professional data analysis experience that took me into the renewables industry, on top of years of exposure to data analysis, statistical and mathematical concepts through my undergraduate studies. I have also taken courses that touched upon relevant topics today such as the ethics of developing artificial intelligence.
+I have over a year of professional data analysis experience that gave me exposure into the renewable energy industry. This is in addition to years of education in data analysis, statistical and mathematical concepts throughout my undergraduate studies. I have also taken courses and read literature that touched upon relevant topics today such as the ethics of developing artificial intelligence, which I will also be discussing at length through my blog.
 
-When I am not creating a ggplot or cleaning a dataset for analysis, you can find me cooking up tried and true recipes, catching up on my favourite shows (sci-fi is my absolute favourite genre!), looking up at the Moon through my telescope, or building cities on my computer.
+When I am not querying a SQL database or cleaning a dataset for analysis, you can find me cooking up tried and true recipes, catching up on my favourite shows (sci-fi is my absolute favourite genre!), looking up at the Moon through my telescope, or building cities for virtual citizens.
 
-Feel free to reach out to me through any of the social or email links that are present on this page. Thank you, and happy browsing!
-
-**NOTE: This website is currently under development, so there may be some empty sections that will be filled in promptly.**
+Feel free to reach out to me through any of the social or email links that are present on this page. Happy browsing!

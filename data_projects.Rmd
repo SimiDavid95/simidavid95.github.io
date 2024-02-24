@@ -1,0 +1,13 @@
+---
+title: "Data Projects"
+description: |
+  Data projects that I have completed of my own initiative.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

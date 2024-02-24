@@ -87,29 +87,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Juan David Acosta: About this site</title>
+  <title>Juan David Acosta: Undergraduate Projects</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
+  <meta property="description" itemprop="description" content="Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: [GitHub Repo](https://github.com/SimiDavid95/Project-Reports)"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Juan David Acosta: About this site"/>
+  <meta property="og:title" content="Juan David Acosta: Undergraduate Projects"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
+  <meta property="og:description" content="Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: [GitHub Repo](https://github.com/SimiDavid95/Project-Reports)"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Juan David Acosta"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Juan David Acosta: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="Juan David Acosta: Undergraduate Projects"/>
+  <meta property="twitter:description" content="Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: [GitHub Repo](https://github.com/SimiDavid95/Project-Reports)"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Undergraduate Projects"]},{"type":"character","attributes":{},"value":["Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: [GitHub Repo](https://github.com/SimiDavid95/Project-Reports)\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc-depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2057,7 +2057,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"Undergraduate Projects","description":"Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: [GitHub Repo](https://github.com/SimiDavid95/Project-Reports)","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2107,14 +2107,48 @@ Projects
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>Undergraduate Projects</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+<p><p>Original or modified projects that I have completed throughout my undergraduate studies in the Department of Statistics at the University of Toronto in Toronto, Canada. GitHub repository with all projects and files can be found here: <a href="https://github.com/SimiDavid95/Project-Reports">GitHub Repo</a></p></p>
 </div>
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#money-tree-experimental-design-study">Money Tree Experimental Design Study</a>
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#code-and-pdf">Code and PDF</a></li>
+</ul></li>
+<li><a href="#toronto-traffic-during-pandemic-observational-study">Toronto Traffic During Pandemic Observational Study</a>
+<ul>
+<li><a href="#abstract-1">Abstract</a></li>
+<li><a href="#code-pdf-and-cleaned-data">Code, PDF and Cleaned Data</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+<h1 id="money-tree-experimental-design-study">Money Tree Experimental Design Study</h1>
+<h2 id="abstract">Abstract</h2>
+<p>The money tree is a foliage plant whose defining characteristic is its palm-like leaves, which typically grow five at a time per stem. (There are mutations where more or less than five leaves grow at a time on one stem, but for the purposes of simplification, these rare cases are left out of the experiment.) The money tree, like many plants, thrives on an abundance of sunlight, regular fertilization, plenty of water, and a relatively big plant pot to grow its roots.</p>
+<p>This study aims to identify the effect of hours exposed to direct sunlight per day, whether or not fertilizer was used, the number of waterings in a month, and the plant pot size on the number of new leaves that sprout on a money tree in a month. A replicated fractional factorial experimental design was deemed the most appropriate for the task at hand, because the factors are each divided into two (binary) levels. The design is a <span class="math inline">\(2^{4-1}\)</span> fractional factorial design, where eight runs (each with a different combination of factors) were replicated four times for a total of 32 runs. The statistical analysis consists of factorial effect estimates, which were obtained by employing a linear model, and these estimates encompass the main and interaction effects of the experiment. The Normal, Half-Normal, and Lenth plots were also analysed.</p>
+<p>The conclusion reveals that it cannot be conclusively determined that any of the factors or interactions were significant to the growth of the money tree leaves, which goes against the initial hypothesis that the factors and interactions would be significant. A future study can run this same experiment using a modified experimental design to determine if the same conclusions will arise or not.</p>
+<h2 id="code-and-pdf">Code and PDF</h2>
+<p>The code for this project, which is an Rmd file, can be found here: <a href="https://github.com/SimiDavid95/Project-Reports/blob/main/Money-Tree-Experimental-Design-Study/Money%20Tree%20Experimental%20Design%20Study.Rmd">Code</a></p>
+<p>The PDF report for this project can be found here: <a href="https://github.com/SimiDavid95/Project-Reports/blob/main/Money-Tree-Experimental-Design-Study/Money-Tree-Experimental-Design-Study.pdf">Report</a></p>
+<h1 id="toronto-traffic-during-pandemic-observational-study">Toronto Traffic During Pandemic Observational Study</h1>
+<h2 id="abstract-1">Abstract</h2>
+<p>The COVID-19 pandemic affected many aspects of our lives, including commuting habits. As lockdowns were introduced around the world, including in the Canadian city of Toronto, traffic levels dropped significantly for all modes of travel. As the pandemic progressed, there were also shifts in travel preferences, where more Torontonians preferred to get around by walking or riding a bike as opposed to driving or taking public transit.</p>
+<p>This report investigates whether the number of cars per cyclist/pedestrian that travel through intersections in Toronto increased, decreased, or stayed the same as the pandemic progressed. Data was obtained from the Toronto Open Data portal and was cleaned, analyzed and plotted to perform exploratory data analysis. The data was fit to a multiple linear regression model in order to project the data into the future, and the model predicts that the number of cars per cyclist/pedestrian will increase given the effects of the independent variables.</p>
+<p>The conclusion reveals that as that as the pandemic progresses, the number of cars per cyclist/pedestrian will increase, which is consistent with the lifting of lockdown and pandemic measures, which will contribute to traffic levels normalizing as more residents of Toronto go back to their in-person jobs, and more businesses either reopen or reduce their pandemic restrictions. However, the data does show that the early period of the pandemic led to a slight decrease of cars per cyclist/pedestrian, pointing to more residents preferring to either walk or bike as opposed to drive. This information can be used by the city to promote ambitions plans to expand cycling infrastructure and increase pedestrian walking spaces, in order to promote these modes of transportation and exercise.</p>
+<h2 id="code-pdf-and-cleaned-data">Code, PDF and Cleaned Data</h2>
+<p>The code for this project, which is an Rmd file, can be found here: <a href="https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/Traffic%20in%20Toronto%20During%20Pandemic.Rmd">Code</a></p>
+<p>The PDF report for this project can be found here: <a href="https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/Traffic-in-Toronto-During-Pandemic.pdf">Report</a></p>
+<p>The cleaned data for this project can be found here: <a href="https://github.com/SimiDavid95/Project-Reports/blob/main/Toronto-Traffic-During-Pandemic/cleaned_toronto_traffic_data.csv">Cleaned data</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2123,6 +2157,15 @@ Projects
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->

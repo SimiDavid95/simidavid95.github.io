@@ -1,0 +1,13 @@
+---
+title: "DataCamp Portfolio"
+description: |
+  DataCamp projects that are in my DataCamp online portfolio.
+output: 
+  distill::distill_article:
+    toc: true
+    toc-depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

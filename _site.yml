@@ -11,16 +11,18 @@ navbar:
       href: cv_resume.html
     - text: "Projects"
       menu:
-        - text: "Educational Projects"
-          href: educational_projects.html
+        - text: "Undergraduate Projects"
+          href: undergrad_projects.html
+        - text: "Data Projects"
+          href: data_projects.html
+        - text: "DataCamp Portfolio"
+          href: datacamp_portfolio.html
         - text: "Tidy Tuesday"
           href: tidy_tuesday.html
-        - text: "Other Projects"
-          href: other_projects.html
     - text: "Blog"
       href: blog.html
-    - text: "Beyond the Data"
-      href: beyond_the_data.html
+    - text: "Hobbies and Interests"
+      href: hobbies_interests.html
       
     - icon: fa fa-linkedin
       href: https://linkedin.com/in/juan-david-acosta
