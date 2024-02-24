@@ -1,5 +1,5 @@
 ---
-title: "Data Projects"
+title: "Technical Projects"
 description: |
   Data projects that I have completed of my own initiative.
 output: 

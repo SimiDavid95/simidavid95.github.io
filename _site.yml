@@ -13,7 +13,7 @@ navbar:
       menu:
         - text: "Undergraduate Projects"
           href: undergrad_projects.html
-        - text: "Data Projects"
+        - text: "Technical Projects"
           href: data_projects.html
         - text: "DataCamp Portfolio"
           href: datacamp_portfolio.html
