@@ -14,18 +14,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
-I am a reliable, energetic, and resourceful individual with more than a year of professional data analysis experience, including several years of practicing data analysis, statistical, and mathematical concepts during my undergraduate studies. I am quick to learn new topics, and have a meticulous attention to detail. Through my experiences, I have developed a data-driven way of thinking that allows me to effectively wrangle, analyze and visualize data, gathering valuable data-driven insights, and communicating those results effectively so that relevant stakeholders may act upon them.
+Reliable, results-driven, and resourceful data analyst with over a year of experience performing data analysis to garner data-driven, actionable insights for a variety of clients. Ability to identify trends and patterns in the data and work with multiple teammates and departments to maximize our value to our clients. Expertise in quantitative and qualitative data analysis, report generation and project management.
 
 ## Work Experience
 
 **Heliolytics Inc.** - *Toronto, ON*\
 **Data Analyst and Report Specialist (Junior and Senior Level)** - July 2022 to August 2023
 
-This was my first full-time professional role. Starting as a junior analyst (Data Analyst and Report Specialist), there were several tasks I could be found working on from day to day. I onboarded client assets into the company's internal systems to prepare for analysis. I performed analysis on the infrared and visual imagery captured from solar power generation sites, translating performance issues observed on site into fault data inputted into the company's proprietary internal analysis systems, as well as noting down key trends on site for further investigation from the client. I generated reports and other deliverables from the insights extracted from the data analysis so that clients can perform remediation on their sites, optimizing their performance. When I was promoted to the senior analyst position (Data Analyst 2), I was also tasked with reviewing the analyses of junior analysts to ensure marking rules and strategies were followed.
-
-This role also gave me valuable experience in project management. I acted as a project manager by managing several client portfolios totaling approximately 240MWdc of energy output and ensuring their sites flowed smoothly through the analysis pipeline.
-
-Finally, I was also the owner of several initiatives on the analysis team, including: updating a repository of analysis tips and tricks; a co-authored guide that laid out best practices for project managers that handled client portfolios of multiple sites; an automated system implemented in our project management software that moved sites from one section to another based on their status change, considerably reducing the time it would take to do this manually and allowed project managers to keep better track of their sites.
+I onboarded client assets, performed data and diagnostic analysis, and generated data-driven reports for 100+ sites belonging to 25+ clients in the solar power generation industry. I acted as a project manager for a portfolio valued at over $100,000 of three clients with a combined 50+ sites in North America and Europe, coordinating up to 10 analysts at a time on each site and communicating with multiple teams across the company including Analysis, Business Development and Operations. I was promoted to senior level of this position in June 2023, with additional responsibilities including reviewing the work of junior analysts and providing constructive feedback.I collaborated on various initiatives that standardized the workflow of project managers and provided a repository of useful tips and tricks for the analysis team.
 
 **Insurtech Advisors** - *Toronto, ON*\
 **Data Analytics and Reporting Intern** - March 2022
@@ -49,42 +45,48 @@ I was tasked with assisting in the running of the program office of the Departme
 **University of Toronto** - *Toronto, ON*\
 **Honours Bachelor of Science** - June 2022
 
-Major in Statistics:
+*Major in Statistics*:
 
-* Probability and sampling design
-* Statistical distributions
-* Various types of regression (linear, logistic, etc.)
-* Time series analysis
-* Data analysis
-* Observational studies
-* Experimental design
+* Probability and sampling design, statistical distributions, various types of regression (linear, logistic, etc.), observational studies, experimental design
+* Data analysis, time series analysis
 * Ethical considerations and reproducibility
 * Statistical programming using R
 * Data analytic consulting
 
-Minor in Mathematics:
+*Minor in Mathematics*:
 
 * Univariate and multivariate calculus
 * Linear algebra
 
-Minor in History and Philosophy of Science and Technology:
+*Minor in History and Philosophy of Science and Technology*:
 
-* History of mathematics
-* History of probability
-* Ethics of machine learning and artificial intelligence
+* History of mathematics and probability
+* Ethics in machine learning and artificial intelligence
 
 ## Technical Skills
 
 ### Programming and database languages
 
-**R**\
-This is the programming language I am most proficient in, as I have used it in several statistics courses for projects and assignments. I use the RStudio environment to write code and create RMarkdown reports. I have experience with data cleaning and data visualization using packages from the *Tidyverse*.
+**R**
 
-**Python**\
-I have used Python to code in both an undergraduate introduction to computer science course, and as part of my Insurtech Advisors internship project. I use the PyCharm environment to write code. I have had exposure to libraries such as *MatPlotLib*, *NumPy*, and *Open-CV*.
+* *Data wrangling/cleaning*: Tidyverse
+* *Data analysis*: Linear regression, multiple linear regression, time series
+* *Data visualization*: ggplot2
+* *Report generation*: RMarkdown, LaTeX
+* *Coding environment*: RStudio
 
-**SQL**\
-I have completed an online course that gave me practical knowledge of SQL through the SQLite and PostgreSQL relational database management system. I have experience writing and executing queries, as well as data profiling and the general workflow of a task involving databases.
+**Python**
+
+* *Data wrangling/cleaning*: Pandas
+* *Data analysis*: Numpy, scikit-learn
+* *Data visualization*: Matplotlib, seaborn (statistical), folium (geospatial)
+* *Report generation*: Jupyter notebook
+* *Coding environment*: Jupyter notebook
+
+**SQL**
+
+* *SQL languages*: SQLite, MySQL, PostgreSQL
+* *SQL knowledge*: Querying, filtering, joins, set theory, CASE statements
 
 ### Excel for data analysis
 
