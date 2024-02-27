@@ -12,30 +12,30 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Artificial Intelligence
+
+The rise of AI, such as through OpenAI's ChatGPT, Google's Gemini and others, has fascinated me. However, this meteoric rise in AI development and use has made me think about the ethical implications of AI and the most responsible way to develop and use this promising technology. I am looking to grow both my knowledge of how AI works, as well as the current literature on AI ethics.
+
 ## Astronomy
 
-Since I was a child, I have always been fascinated by space. My elementary book list consisted of several books on the Moon and the Solar System as a whole. As a young adult, I invested in a home telescope, where I've observed the Moon and various stars on several occasions, and even got to observe Mars once. It was a faint red dot, even with the power of the telescope's magnification, but it was still awe-inducing to realize that I was staring at another planet in real time. I have taken several undergraduate courses on the Solar System, the universe in general, and astrobiology. I have also invested several hours into playing Stellaris, which is a space simulation game where you build out a spacefaring civilization. Astronomy has given me experience in another scientific field, and helped me work on my analytical skills.
-
-## Cooking
-
-Recently, I have endeavoured to become more proficient in the kitchen, and this has involved both learning new recipes and practicing recipes handed down to me by my mom and other family members. Several dishes that I have made include chicken parmesan (my signature dish), American breakfast, creamy chicken penne pasta, salmon glazed in a honey-lemon-soy sauce, and more. Cooking exercises my attention to detail when following recipes, but also my creativity when I modify recipes to experiment.
+Since I was a child, I have always been fascinated by space. My elementary book list consisted of several books on the Moon and the Solar System as a whole. As a young adult, I invested in a home telescope, where I've observed the Moon and various stars on several occasions, and even got to observe Mars once. It was a faint red dot, even with the power of the telescope's magnification, but it was still awe-inducing to realize that I was staring at another planet in real time. I have taken several undergraduate courses on the Solar System, the universe in general, and astrobiology. I have also invested several hours into playing Stellaris, which is a space simulation game where you build out a spacefaring civilization. Astronomy has given me experience in another scientific field, and helped me work on my analytic skills.
 
 ## Eurovision Song Contest
 
 I was introduced to the Eurovision Song Contest in 2018 by a close friend, and since then I've been a big Eurofan that hasn't missed the contest live. Favourite countries I look out for each year are Belgium and the United Kingdom.
 
-## Titanic
-
-Hands-down my favourite movie of all time has to be 1997's "Titanic". Since I was 2 years old, I have probably watched that movie at least a dozen times, if not more. The fascination with the movie also spilled over into a fascination with the real-life ship itself, diving deeper into the tragedy and also becoming a general ocean liner fan. You can find several books on Titanic in my bookshelf.
-
 ## Simulated city-building
 
-I have invested hours into Cities: Skylines, a simulation game in which you are tasked with building out a city, taking it from an empty plot of land to a bustling metropolis. This game heavily exercises my creativity when it comes to planning the layout of my cities, and it has also taught me how to strategize in order to keep a budget and manage traffic.
+I have invested hours into Cities: Skylines, a city-building simulation game in which you are tasked with building out and managing a city, taking it from an empty plot of land to a bustling metropolis. This game heavily exercises my creativity when it comes to planning the layout of my cities, and it has also taught me how to strategize in order to keep a budget and manage traffic.
 
 ## Tabletop roleplaying games
 
 I have gotten to play in several tabletop roleplaying games, where you roleplay as a character that you create (or one that is pre-generated for you), telling a story either on your own or with a group of other players, usually with a game master that facilitates the narrative. I also enjoy watching them through both livestreams and pre-recorded videos. Playing in these games has helped me develop teamwork when roleplaying with a group and collaborating in the storytelling.
 
+## Titanic
+
+Hands-down my favourite movie of all time has to be 1997's "Titanic". Since I was 2 years old, I have probably watched that movie at least a dozen times, if not more. The fascination with the movie also spilled over into a fascination with the real-life ship itself, diving deeper into the tragedy and also becoming a general ocean liner fan. You can find several books on Titanic in my bookshelf.
+
 ## Wiki editing
 
-I have helped edit and create a majority of the structure of the [Saving Throw Show wiki](https://savingthrowshow.fandom.com/wiki/Saving_Throw_Show_Wiki) as it is today. I am also the administrator for the wiki, which means that I am given access to the underlying administrative tools, such as the wiki analytics and structural edits. Wiki editing and administering has given me technical practice in working on a website, creating a structure and making edits, as well as analyzing data and trends for wiki visits.
+I have helped edit and create a majority of the structure of the [Saving Throw Show wiki](https://savingthrowshow.fandom.com/wiki/Saving_Throw_Show_Wiki) as it is today. The wiki is a repository of information for all of the shows, cast and characters that have appeared on the Saving Throw Show actual play network. I am also the administrator for the wiki, which means that I am given access to the underlying administrative tools, such as the wiki analytics and structural edits. Wiki editing and administering has given me technical practice in working on a website, creating a structure and making edits, as well as analyzing data and trends for wiki visits.

@@ -11,3 +11,5 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+My DataCamp portfolio is where you can see which projects and courses I have completed on DataCamp, which technical skills and programming languages I'm competent in, and a general overview of my educational and work experience. You can access my DataCamp portfolio here: [Juan's DataCamp Portfolio](https://www.datacamp.com/portfolio/juan-david-acosta)
